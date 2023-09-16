@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .navlink {
+        @apply text-gray-700 font-light p-1 lg:rounded-md lg:text-[16px] transition text-[20px] mx-1 mt-2 ;
+    }
+
+    .navlink:hover {
+        @apply text-gray-800 border-b-[2px] border-b-gray-800 rounded-none
+    }
+
+    .active {
+        @apply text-gray-800 border-b-[2px] border-b-gray-800 rounded-none
+    }
+}

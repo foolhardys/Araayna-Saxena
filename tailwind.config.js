@@ -5,7 +5,19 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    colors: {
+      'danger': '#ff0e0e',
+      'primary': '#FFFEF8',
+      'secondary': '#06273A',
+      'brown': '#956E46',
+    },
+    fontFamily: {
+      garamond: ["Cormorant Garamond", 'serif'],
+      raleway: ['Raleway', 'sans-serif'],
+      serif: ['Inclusive Sans', 'sans-serif']
+    },
   },
   plugins: [],
 }
+
+

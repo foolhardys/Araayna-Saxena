@@ -10,11 +10,11 @@ const LaptopNav = () => {
     const [dropdown, setDropdown] = useState(false);
 
     return (
-        <div className='w-screen p-4 lg:flex justify-center items-center bg-primary shadow-lg flex-col h-[134px] hidden '>
-            <h1 className='text-center lg:text-[40px] text-[40px] font-[700] mb-2 text-secondary font-garamond'>
-                Arayna Saxena
+        <div className='w-full p-4 lg:flex justify-evenly items-center bg-primary shadow-lg gap-4 h-[134px] hidden'>
+            <h1 className='text-center lg:text-[96px] text-[80px] font-[400] mb-2 text-secondary font-display'>
+                A.
             </h1>
-            <ul className='w-[980px]  lg:flex justify-between capitalize p-2'>
+            <ul className='min-w-[980px]  lg:flex justify-between capitalize p-2'>
                 {Navlinks.map((navlink) => {
                     const { id, text, url } = navlink
                     if (text === "extracurricular") {

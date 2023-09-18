@@ -9,7 +9,7 @@ const Sidebar = () => {
     const [isSidebarOpen, setIsSidebarOpen] = useState(false)
 
     return (
-        <div className='w-screen p-4 justify-center items-center bg-primary shadow-lg sticky flex-col h-[90px] lg:hidden'>
+        <div className='w-full p-4 justify-center items-center bg-primary shadow-lg sticky flex-col h-[90px] lg:hidden'>
             <h2 className='text-start text-[40px] font-[700] mb-2 ml-5 text-secondary font-garamond'>
                 Arayna Saxena
             </h2>

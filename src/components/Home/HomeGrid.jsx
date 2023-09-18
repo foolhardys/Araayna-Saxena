@@ -4,71 +4,77 @@ import React from 'react'
 const griditems = [
     {
         id: 1,
-        title: 'first',
+        title: 'Community outreach with Uthaan foundation',
         img: '',
         url: ''
     },
     {
         id: 2,
-        title: 'second',
+        title: 'Literary Journey- Amidst the Downpour',
         img: '',
         url: ''
     },
     {
         id: 3,
-        title: 'third',
+        title: 'research',
         img: '',
         url: ''
     },
     {
         id: 4,
-        title: 'fourth',
+        title: 'projects',
         img: '',
         url: ''
     },
     {
         id: 5,
-        title: 'fifth',
+        title: 'leadership',
         img: '',
         url: ''
     },
     {
         id: 6,
-        title: 'sixth',
+        title: 'Creativity: YT/Social Media / Design',
         img: '',
         url: ''
     },
     {
         id: 7,
-        title: 'seventh',
+        title: 'Dance',
         img: '',
         url: ''
     },
     {
         id: 8,
-        title: 'eigth',
+        title: 'Instruments',
         img: '',
         url: ''
     },
     {
         id: 9,
-        title: 'ninth',
+        title: 'Theatre/Drama',
         img: '',
         url: ''
     }
 ]
 
 
+
+
 const HomeGrid = () => {
     return (
-        <article className='w-[1080px] p-4 flex flex-col items-center'>
-            <h1 className='font-garamond text-[72px] mt-[80px] leading-[90px] font-[400] text-secondary mb-[40px] self-start'>
+        <article className='lg:max-w-[1080px] lg:min-w-[980px] p-4 flex flex-col items-center w-full'>
+            <h1 className='font-display text-center text-[72px] mt-[80px] lg:ml-0 md:ml-2 leading-[90px] font-[400] text-secondary mb-[40px] self-center'>
                 Some key initiatives
             </h1>
-            <article className='w-[600px] grid gap-[10px] grid-cols-3 grid-rows-3 p-4'>
+            <article className='md:min-w-[600px] grid gap-x-[80px] gap-y-[20px] md:grid-cols-3 md:grid-rows-3 grid-cols-1 grid-rows-9 w-full  p-4'>
                 {griditems.map((griditem) => {
-                    const { id, title, img, url } = griditem
-                    return <article key={id} className='w-[180px] h-[182px] rounded-sm bg-brown'></article>
+                    const { id, title} = griditem
+                    return <article key={id} className='md:w-[180px] w-[220px] mb-4 md:mb-0 h-[182px] rounded-sm border-2 border-secondary mx-auto flex items-center justify-center'>
+                        <h2 className='text-[16px] text-center font-[400] font-quicksand capitalize'>
+                            {title}
+                        </h2>
+                    </article>
                 })}
             </article>
         </article>

@@ -9,8 +9,8 @@ const sublinks = [
     },
     {
         id: 2,
-        text: 'synthesizer',
-        url: '/extracurricular/synthesizer'
+        text: 'piano',
+        url: '/extracurricular/piano'
     },
     {
         id: 3,
@@ -21,6 +21,11 @@ const sublinks = [
         id: 4,
         text: 'drama',
         url: '/extracurricular/drama'
+    },
+    {
+        id: 5,
+        text: 'debate',
+        url: '/extracurricular/debate'
     }
 ]
 
@@ -31,7 +36,7 @@ const Dropdown = () => {
     return (
         <div>
             <ul
-                className='transition mt-4 absolute top-[100px] w-[120px] p-3 flex flex-col gap-2 z-30 shadow-md'
+                className='transition mt-4 absolute top-[64px] w-[120px] p-3 flex flex-col gap-2 z-30 shadow-md'
                 onClick={() => setDropdown(!dropdown)}
             >
                 {sublinks.map((sublink) => {

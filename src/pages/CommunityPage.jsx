@@ -1,6 +1,6 @@
 import React from 'react'
 import PageHero from '../components/Community/PageHero'
-import Uthaan from '../components/Community/uTHAAN.JSX'
+import Uthaan from '../components/Community/Uthaan.jsx'
 
 const CommunityPage = () => {
   return (

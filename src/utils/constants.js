@@ -5,24 +5,25 @@ export const Navlinks = [
     url: '/',
   },
   {
+
     id: 2,
+    text: 'projects',
+    url: '/projects',
+  },
+  {
+    id: 3,
     text: 'leadership',
     url: '/leadership',
   },
   {
-    id: 3,
-    text: 'research',
-    url: '/research',
-  },
-  {
     id: 4,
-    text: 'social media',
-    url: '/socialmedia',
+    text: 'community services',
+    url: '/community',
   },
   {
     id: 5,
-    text: 'summerschool',
-    url: '/summerschool',
+    text: 'author',
+    url: 'author',
   },
   {
     id: 6,
@@ -31,12 +32,12 @@ export const Navlinks = [
   },
   {
     id: 7,
-    text: 'community',
-    url: '/community',
+    text: 'summer programs',
+    url: '/summerschool',
   },
   {
     id: 8,
-    text: 'contact',
+    text: 'contacts',
     url: '/contact',
   }
 ]

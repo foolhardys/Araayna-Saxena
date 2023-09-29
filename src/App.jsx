@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router-dom"
 import Layout from "./Layout"
-import { HomePage, LeadershipPage, CommunityPage, ContactPage, ExtraCurricularPage, ResearchPage, SocialMediaPage, SummerSchoolPage, Drums, Drama, Piano, Bharatnatyam, Debate, Error } from './pages'
+import { HomePage, LeadershipPage, CommunityPage, ContactPage, ExtraCurricularPage, ProjectsPage, AuthorPage, SummerSchoolPage, Drums, Drama, Piano, Bharatnatyam, Debate, Error } from './pages'
 import './App.css'
 
 
@@ -10,8 +10,8 @@ function App() {
       <Route element={<Layout />} path="/">
         <Route element={<HomePage />} index />
         <Route element={<LeadershipPage />} path="leadership" />
-        <Route element={<ResearchPage />} path="research" />
-        <Route element={<SocialMediaPage />} path="socialmedia" />
+        <Route element={<ProjectsPage />} path="projects" />
+        <Route element={<AuthorPage />} path="author" />
         <Route element={<SummerSchoolPage />} path="summerschool" />
         <Route element={<ExtraCurricularPage />} path="extracurricular" >
           <Route element={<Drums />} path="drums" />

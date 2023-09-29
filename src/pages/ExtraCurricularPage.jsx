@@ -5,7 +5,7 @@ import PageNavigation from '../components/Extracurricular/PageNavigation'
 
 const ExtraCurricularPage = () => {
   return (
-    <section className='flex flex-col items-center'>
+    <section className='min-h-screen flex flex-col items-center'>
       <PageHero />
       <PageNavigation/>
       <Outlet/>

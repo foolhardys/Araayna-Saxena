@@ -13,6 +13,12 @@ export default {
       'white': '#FFFFFF',
       'black': ' #000000',
       'background': '#E2D9D1',
+      'cream': '#F7F1EB',
+      'peach': '#EA9D68',
+      'gray': '#696969',
+      'purple': '#A771FF',
+      'lightpurple': '#F6EBF7',
+      'blue': '#0096FF',
     },
     fontFamily: {
       garamond: ["Cormorant Garamond", 'serif'],

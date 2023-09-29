@@ -36,7 +36,7 @@ const Dropdown = () => {
     return (
         <div>
             <ul
-                className='transition mt-4 absolute top-[64px] w-[120px] p-3 flex flex-col gap-2 z-30 shadow-md'
+                className='transition mt-4 absolute top-[64px] w-[120px] p-3 flex flex-col gap-2 z-30 shadow-md bg-cream'
                 onClick={() => setDropdown(!dropdown)}
             >
                 {sublinks.map((sublink) => {

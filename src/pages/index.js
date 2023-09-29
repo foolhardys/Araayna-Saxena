@@ -3,8 +3,8 @@ import LeadershipPage from './LeadershipPage'
 import CommunityPage from './CommunityPage'
 import ContactPage from './ContactPage'
 import ExtraCurricularPage from './ExtraCurricularPage'
-import ResearchPage from './ResearchPage'
-import SocialMediaPage from './SocialMediaPage'
+import ProjectsPage from './ProjectsPage'
+import AuthorPage from './AuthorPage'
 import SummerSchoolPage from './SummerSchoolPage'
 import Drama from './Drama'
 import Drums from './Drums'
@@ -19,13 +19,13 @@ export {
     CommunityPage,
     ContactPage,
     ExtraCurricularPage,
-    ResearchPage,
-    SocialMediaPage,
+    ProjectsPage,
+    AuthorPage,
     SummerSchoolPage,
     Drama,
     Drums,
     Bharatnatyam,
     Piano,
     Debate,
-    Error
+    Error,
 }

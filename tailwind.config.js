@@ -19,6 +19,7 @@ export default {
       'purple': '#A771FF',
       'lightpurple': '#F6EBF7',
       'blue': '#0096FF',
+      'card': '#FAFAFA'
     },
     fontFamily: {
       garamond: ["Cormorant Garamond", 'serif'],
@@ -29,9 +30,6 @@ export default {
       display: ['DM Serif Display', 'serif'],
       quicksand: ['Quicksand', 'sans-serif'],
     },
-    backgroundImage: {
-      'home-img': "url('src/components/Home/HOME-PIC.jpg')",
-    }
   },
   plugins: [],
 }

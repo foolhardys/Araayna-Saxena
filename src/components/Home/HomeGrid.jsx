@@ -63,8 +63,8 @@ const griditems = [
 
 const HomeGrid = () => {
     return (
-        <article className='lg:max-w-[1080px] lg:min-w-[980px] p-4 flex flex-col items-center w-full'>
-            <h1 className='font-display text-center text-[72px] mt-[80px] lg:ml-0 md:ml-2 leading-[90px] font-[400] text-secondary mb-[40px] self-center'>
+        <article className=' p-4 flex flex-col items-center w-full bg-primary'>
+            <h1 className='font-display text-center md:text-[72px] text-[40px] mt-[80px] lg:ml-0 md:ml-2 leading-[90px] font-[400] text-secondary mb-[40px] self-center'>
                 Some key initiatives
             </h1>
             <article className='md:min-w-[600px] grid gap-x-[80px] gap-y-[20px] md:grid-cols-3 md:grid-rows-3 grid-cols-1 grid-rows-9 w-full  p-4'>

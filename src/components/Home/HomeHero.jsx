@@ -1,9 +1,12 @@
 import React from 'react'
+import Bg from '../Assets/Home/arayna.png'
 
 
 const HomeSlider = () => {
     return (
-        <div className='bg-home-img h-[1200px] w-full bg-fixed md:bg-center bg-right bg-cover p-5'></div>
+        <section className='w-full sticky top-0 -z-10'>
+            <img src={Bg} alt="" className='w-full'/>
+        </section>
     );
 
 }

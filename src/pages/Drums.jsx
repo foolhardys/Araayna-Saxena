@@ -3,14 +3,14 @@ import YoutubePlayer from '../components/YoutubePlayer'
 
 const Drums = () => {
   return (
-    <article className=' w-[1280px] shadow-xl rounded-3xl flex flex-col items-center justify-center'>
+    <article className=' max-w-[1280px] shadow-xl rounded-3xl flex flex-col items-center justify-center'>
       <div className='w-full bg-talent flex justify-center h-[230px] items-center rounded-3xl'>
         <div className='p-1 w-full'>
-          <h1 className='text-left lg:text-[70px] md:text-[60px] text-[50px] font-[400] font-display capitalize text-secondary '> Drums</h1>
+          <h1 className='lg:text-left text-center lg:text-[70px] md:text-[60px] text-[50px] font-[400] font-display capitalize text-secondary '> Drums</h1>
         </div>
       </div>
       <div className='w-full flex justify-center lg:min-h-[250px] items-center lg:flex-row flex-col'>
-        <div className='flex-1 md:w-[980px] w-[600px] px-20 my-10'>
+        <div className='flex-1 lg:w-[980px] md:w-[600px] w-[450px] px-20 my-10'>
           <p className='font-quicksand font-[400] text-[18px]'>
             • Fueled by a deep passion for rock and roll, I have been dedicated to learning the drums from the Trinity College of London: Grade 2 examination: achieved Distinction
             <br />
@@ -32,7 +32,7 @@ const Drums = () => {
           </button>
         </div>
       </div>
-      <div className='w-full flex justify-start px-[100px] min-h-[300px] items-start gap-5 lg:flex-row flex-col mb-10'>
+      <div className='w-full flex justify-start px-[100px] min-h-[300px] lg:items-start items-center gap-5 lg:flex-row flex-col mb-10'>
         <YoutubePlayer url='https://www.youtube.com/embed/WBey6xAI1aU?si=nuPJpScLv36ZflDm' para='KNOCK ON WOOD, Eddie Floyd- Trinity Rock & Pop Drums Grade 2
 ' />
       </div>

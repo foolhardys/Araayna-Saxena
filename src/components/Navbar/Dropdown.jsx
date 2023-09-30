@@ -4,29 +4,24 @@ import { Link } from "react-router-dom";
 const sublinks = [
     {
         id: 1,
-        text: 'drums',
-        url: '/extracurricular/drums'
-    },
-    {
-        id: 2,
-        text: 'piano',
-        url: '/extracurricular/piano'
-    },
-    {
-        id: 3,
         text: 'bharatnatyam',
         url: '/extracurricular/bharatnatyam'
     },
     {
-        id: 4,
+        id: 2,
         text: 'drama',
         url: '/extracurricular/drama'
     },
     {
-        id: 5,
-        text: 'debate',
-        url: '/extracurricular/debate'
-    }
+        id: 3,
+        text: 'drums',
+        url: '/extracurricular/drums'
+    },
+    {
+        id: 4,
+        text: 'piano',
+        url: '/extracurricular/piano'
+    },
 ]
 
 const Dropdown = () => {
@@ -36,7 +31,7 @@ const Dropdown = () => {
     return (
         <div>
             <ul
-                className='transition mt-4 absolute top-[64px] w-[120px] p-3 flex flex-col gap-2 z-30 shadow-md bg-cream'
+                className='transition mt-4 absolute top-[64px] w-[120px] p-3 flex flex-col gap-2 z-30 shadow-md bg-gray/30'
                 onClick={() => setDropdown(!dropdown)}
             >
                 {sublinks.map((sublink) => {

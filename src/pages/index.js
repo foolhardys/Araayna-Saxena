@@ -10,7 +10,6 @@ import Drama from './Drama'
 import Drums from './Drums'
 import Bharatnatyam from './Bharatnatyam'
 import Piano from './Piano'
-import Debate from './Debate'
 import Error from './Error'
 
 export {
@@ -26,6 +25,5 @@ export {
     Drums,
     Bharatnatyam,
     Piano,
-    Debate,
     Error,
 }

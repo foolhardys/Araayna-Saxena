@@ -1,13 +1,13 @@
 import React from 'react'
 import { Outlet } from 'react-router-dom'
 import PageHero from '../components/Extracurricular/PageHero'
-import PageNavigation from '../components/Extracurricular/PageNavigation'
+import TalentSlider from '../components/Extracurricular/TalentSlider'
 
 const ExtraCurricularPage = () => {
   return (
     <section className='min-h-screen flex flex-col items-center'>
       <PageHero />
-      <PageNavigation/>
+      <TalentSlider/>
       <Outlet/>
     </section>
   )

@@ -19,7 +19,8 @@ export default {
       'purple': '#A771FF',
       'lightpurple': '#F6EBF7',
       'blue': '#0096FF',
-      'card': '#FAFAFA'
+      'card': '#FAFAFA',
+      'talent': '#D8C6F6'
     },
     fontFamily: {
       garamond: ["Cormorant Garamond", 'serif'],

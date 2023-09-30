@@ -3,7 +3,7 @@ import React from 'react'
 const Content = ({ heading, text, image, }) => {
   return (
     <article className=' py-2 w-full flex flex-col items-center mt-40 '>
-      <div className='w-full bg-background flex justify-center h-[230px] items-center'>
+      <div className='w-full bg-talent flex justify-center h-[230px] items-center'>
         <div className='p-4 lg:w-[980px] md:w-[700px] w-[420px]'>
           <h1 className='text-left lg:text-[70px] md:text-[60px] text-[50px] font-[400] font-display capitalize text-secondary '>{heading}</h1>
         </div>

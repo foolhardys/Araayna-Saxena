@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SingleTalent from '../Extracurricular/SingleTalent';
 import 'swiper/css';
@@ -36,20 +36,30 @@ const TalentSlider = () => {
     return (
         <Swiper
             spaceBetween={50}
-            slidesPerView={3}
+            breakpoints={{
+                768: {
+                    slidesPerView: 2,
+                    spaceBetween: 40,
+                },
+                1024: {
+                    slidesPerView: 3,
+                    spaceBetween: 50,
+                },
+            }}
+            slidesPerView={1}
             onSlideChange={() => console.log('slide change')}
             onSwiper={(swiper) => console.log(swiper)}
         >
-        {
-            talents.map((talent)=>{
-                const{id} = talent
-                return (
-                    <SwiperSlide key={id}>
-                        <SingleTalent {...talent}/>
-                    </SwiperSlide>
-                )
-            })
-        }
+            {
+                talents.map((talent) => {
+                    const { id } = talent
+                    return (
+                        <SwiperSlide key={id}>
+                            <SingleTalent {...talent} />
+                        </SwiperSlide>
+                    )
+                })
+            }
         </Swiper>
 
     )

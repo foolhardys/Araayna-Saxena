@@ -4,10 +4,12 @@ import { Navlinks } from '../../utils/constants'
 import { NavLink, Link } from 'react-router-dom'
 import Dropdown from './Dropdown';
 import { AiOutlineCaretDown } from 'react-icons/ai';
+import AuthorDropdown from './AuthorDropdown';
 
 const LaptopNav = () => {
 
     const [dropdown, setDropdown] = useState(false);
+    const [authorDropdown, setAuthorDropdown] = useState(false);
 
     return (
         <div className='w-full p-4 lg:flex justify-evenly items-center bg-primary shadow-lg gap-4 h-[134px] hidden'>
@@ -26,6 +28,18 @@ const LaptopNav = () => {
                             >
                                 <Link to={url} className='text-secondary font-light p-1 lg:text-[16px] transition font-raleway text-[20px] mx-1 mt-2 hover:text-gray-800 hover:border-b-[2px] hover:border-b-secondary'>{text}</Link>
                                 {dropdown && <Dropdown />}
+                            </li>
+                        );
+                    }
+                    if (text === "author") {
+                        return (
+                            <li
+                                key={id}
+                                onMouseEnter={() => setAuthorDropdown(true)}
+                                onMouseLeave={() => setAuthorDropdown(false)}
+                            >
+                                <Link to={url} className='text-secondary font-light p-1 lg:text-[16px] transition font-raleway text-[20px] mx-1 mt-2 hover:text-gray-800 hover:border-b-[2px] hover:border-b-secondary'>{text}</Link>
+                                {authorDropdown && <AuthorDropdown />}
                             </li>
                         );
                     }

@@ -5,8 +5,8 @@ import DanceSlider from '../components/Slider/DanceSlider'
 const Bharatnatyam = () => {
   return (
     <article className='lg:w-[1280px] w-full shadow-xl rounded-3xl flex flex-col items-center mt-20 mb-20 relative p-4'>
-      <div className='w-full bg-talent flex justify-center min-h-[230px] items-center rounded-3xl'>
-        <div className='p-4 lg:w-[900px] md:w-[700px] w-[420px]'>
+      <div className='w-full bg-talent flex justify-start px-[60px] min-h-[230px] items-center rounded-3xl'>
+        <div className='py-4 lg:w-[980px] md:w-[700px] w-[420px]'>
           <h1 className='text-left lg:text-[60px] md:text-[60px] text-[50px] font-[400] font-display capitalize text-secondary '>Professional <br /> Bharatnatyam Dancer</h1>
         </div>
       </div>

@@ -9,8 +9,8 @@ const BrownSchool = () => {
         <p className='mb-4'>
           Attended the Summer@Brown, the Brown University Pre-College Program <br /> under the course <a href='https://catalog.precollege.brown.edu/detail/CECS0915' >“Artificial Intelligence: A Computational Account <br /> of Intelligence".</a>  Scored 100% grade in all projects in the course.
         </p>
-        <button className='bg-purple rounded-md  p-2'>
-          <a href="" className='text-[18px] font-quicksand font-[700] text-white'>Performance Report</a></button>
+        <button className='bg-purple rounded-md p-3 hover:bg-lightpurple hover:text-gray'>
+          <a href="https://drive.google.com/file/d/144TubpYsESsO2xjGGdSf6YY81_UHlS3_/view?usp=sharing" className='text-[18px] font-quicksand font-[700] text-white'>Performance Report</a></button>
       </div>
       <div>
         <img src={Image} alt="Brown university" className='h-[346px]' />

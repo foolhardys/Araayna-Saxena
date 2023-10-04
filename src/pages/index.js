@@ -11,6 +11,7 @@ import Drums from './Drums'
 import Bharatnatyam from './Bharatnatyam'
 import Piano from './Piano'
 import Error from './Error'
+import Brewscape from './Brewscape'
 
 export {
     HomePage,
@@ -26,4 +27,5 @@ export {
     Bharatnatyam,
     Piano,
     Error,
+    Brewscape
 }

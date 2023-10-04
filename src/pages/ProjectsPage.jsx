@@ -4,6 +4,7 @@ import Gamechanger from '../components/Projects/Gamechanger'
 import Internships from '../components/Projects/Internships'
 import Detective from '../components/Projects/Detective'
 import Website from '../components/Projects/Website'
+import Competetions from '../components/Projects/Competetions'
 
 
 const ResearchPage = () => {
@@ -13,6 +14,7 @@ const ResearchPage = () => {
       <PageHero/>
       <Gamechanger/>
       <Detective/>
+      <Competetions/>
       <Internships/>
       <Website/>
     </section>

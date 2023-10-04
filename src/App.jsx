@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router-dom"
 import Layout from "./Layout"
-import { HomePage, LeadershipPage, CommunityPage, ContactPage, ExtraCurricularPage, ProjectsPage, AuthorPage, SummerSchoolPage, Drums, Drama, Piano, Bharatnatyam, Error } from './pages'
+import { HomePage, LeadershipPage, CommunityPage, ContactPage, ExtraCurricularPage, ProjectsPage, AuthorPage, SummerSchoolPage, Drums, Drama, Piano, Bharatnatyam, Error, Brewscape } from './pages'
 import './App.css'
 
 
@@ -20,6 +20,7 @@ function App() {
           <Route element={<Drama />} path="drama" />
         </Route>
         <Route element={<CommunityPage />} path="community" />
+        <Route element={<Brewscape />} path='brewscape' />
         <Route element={<ContactPage />} path="contact" />
         <Route element={<Error />} path="*" />
       </Route>

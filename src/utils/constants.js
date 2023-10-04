@@ -17,7 +17,7 @@ export const Navlinks = [
   },
   {
     id: 4,
-    text: 'community services',
+    text: 'social services',
     url: '/community',
   },
   {
@@ -37,6 +37,11 @@ export const Navlinks = [
   },
   {
     id: 8,
+    text: 'brewscape',
+    url: '/brewscape',
+  },
+  {
+    id: 9,
     text: 'contacts',
     url: '/contact',
   }

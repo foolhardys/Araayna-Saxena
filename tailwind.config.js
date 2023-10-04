@@ -16,11 +16,14 @@ export default {
       'cream': '#F7F1EB',
       'peach': '#EA9D68',
       'gray': '#696969',
+      'dark-gray': '#4C4C4C',
       'purple': '#A771FF',
       'lightpurple': '#F6EBF7',
       'blue': '#0096FF',
       'card': '#FAFAFA',
-      'talent': '#D8C6F6'
+      'talent': '#D8C6F6',
+      'dark-purple': '#6F38C9',
+      'deep-purple': '#2E2340',
     },
     fontFamily: {
       garamond: ["Cormorant Garamond", 'serif'],
@@ -30,6 +33,7 @@ export default {
       libre: ['Libre Baskerville', 'serif'],
       display: ['DM Serif Display', 'serif'],
       quicksand: ['Quicksand', 'sans-serif'],
+      roboto: ['Roboto', 'sans-serif']
     },
   },
   plugins: [],

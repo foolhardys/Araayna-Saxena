@@ -1,12 +1,15 @@
-import React from 'react'
-import SingleTalent from './SingleTalent'
+import React from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import SingleTalent from '../Extracurricular/SingleTalent';
+import 'swiper/css';
 
 const talents = [
     {
         id: 1,
         heading: 'Bharatnatyam',
         description: 'Trained in Bharatanatyam through 8+ years of relentless dedication and attained an esteemed degree with distinction.',
-        url: 'bharatnatyam'
+        url: 'bharatnatyam',
+        "interval": 1500
     },
     {
         id: 2,
@@ -29,14 +32,30 @@ const talents = [
 ]
 
 const TalentSlider = () => {
+
     return (
-        <section className='flex gap-5 m-10 flex-wrap md:flex-row flex-col items-center justify-center lg:justify-normal py-8'>
-            {talents.map((talent) => {
-                const { id } = talent
-                return <SingleTalent key={id} {...talent} />
-            })}
-        </section>
+        <Swiper
+            spaceBetween={50}
+            slidesPerView={3}
+            onSlideChange={() => console.log('slide change')}
+            onSwiper={(swiper) => console.log(swiper)}
+        >
+        {
+            talents.map((talent)=>{
+                const{id} = talent
+                return (
+                    <SwiperSlide key={id}>
+                        <SingleTalent {...talent}/>
+                    </SwiperSlide>
+                )
+            })
+        }
+        </Swiper>
+
     )
 }
 
 export default TalentSlider
+
+
+

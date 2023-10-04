@@ -4,7 +4,7 @@ import DanceSlider from '../components/Slider/DanceSlider'
 
 const Bharatnatyam = () => {
   return (
-    <article className='max-w-[1280px] shadow-xl rounded-3xl flex flex-col items-center mt-20 mb-20 relative p-4'>
+    <article className='lg:w-[1280px] w-full shadow-xl rounded-3xl flex flex-col items-center mt-20 mb-20 relative p-4'>
       <div className='w-full bg-talent flex justify-center min-h-[230px] items-center rounded-3xl'>
         <div className='p-4 lg:w-[900px] md:w-[700px] w-[420px]'>
           <h1 className='text-left lg:text-[60px] md:text-[60px] text-[50px] font-[400] font-display capitalize text-secondary '>Professional <br /> Bharatnatyam Dancer</h1>
@@ -25,10 +25,10 @@ const Bharatnatyam = () => {
       <div className='w-full flex justify-center min-h-[300px] lg:mt-0 mt-8 lg:items-start items-center gap-5 lg:flex-row flex-col mb-10px-4'>
         <YoutubePlayer url='https://www.youtube.com/embed/B4jhcQb8WmE?si=2x-jpT4VBEdOuyaE' para='Performed thrice in front of audiences of over 4 lakh spectators on the momentous occasions of Indian festival Dussehra, making a debut at 10 years.
 ' />
-        <YoutubePlayer url='' para='
+        <YoutubePlayer url='https://www.youtube.com/embed/pCq7IgrSRtY?si=7B_oA5WB9aEQbJmw' para='
            Represented India at the Mersin World Children Festival in Turkey, 2019. Choreographed and performed solo Bharatanatyam, as well as showcased two different group performances for the festival.
 '/>
-        <YoutubePlayer url='' para='Recipient of the Certificate of Excellent Performance  at Vihaan 2016 - Annual Techno Cultural fest at  Radharaman Group of Institutions and acquired 1st position  amongst other 50 college students' />
+        <YoutubePlayer url='https://www.youtube.com/embed/mfPZseQksQA?si=qyG7DF3zfaWLdNeE' para='Recipient of the Certificate of Excellent Performance  at Vihaan 2016 - Annual Techno Cultural fest at  Radharaman Group of Institutions and acquired 1st position  amongst other 50 college students' />
       </div>
     </article>
   )

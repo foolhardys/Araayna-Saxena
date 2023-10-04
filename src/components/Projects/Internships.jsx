@@ -9,13 +9,13 @@ const Internships = () => {
         <div>
           <p className='font-quicksand text-[18px] font-[400] my-4'>1. Completed Virtual Internship in <strong>“Software Development and Engineering”</strong> with <a href="https://www.memomoti.com/" className='font-quicksand font-[400] text-[18px] text-purple underline '>MemoMoti </a></p>
           <button className='w-[180px] bg-purple rounded-lg hover:bg-lightpurple p-2  text-white hover:text-gray mb-5 '>
-            <a href="" className='font-quicksand font-[700] text-[18px]'>Certificate</a>
+            <a href="https://drive.google.com/file/d/1AgzQW3-rhvJCiFmGSe-DdJDtKtbWfctE/view?usp=drive_link" className='font-quicksand font-[700] text-[18px]'>Certificate</a>
           </button>
         </div>
         <div>
           <p className='font-quicksand text-[18px] font-[400] my-4'>2. Completed SDE Internship with <a href="https://www.jungleegames.com/" className='font-quicksand font-[400] text-[18px] text-purple underline '>JungleeGames,</a> designed a <strong>prototype website</strong> using HTML, CSS & Javascript.</p>
           <button className='w-[180px] bg-purple rounded-lg hover:bg-lightpurple p-2  text-white hover:text-gray mb-5 '>
-            <a href="" className='font-quicksand font-[700] text-[18px]'>Certificate</a>
+            <a href="https://drive.google.com/file/d/1xR73lgcwkYbAZN69gUq7fUm6Wbg9EzwD/view?usp=drive_link" className='font-quicksand font-[700] text-[18px]'>Certificate</a>
           </button>
         </div>
       </article>

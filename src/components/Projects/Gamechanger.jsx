@@ -10,7 +10,7 @@ const Gamechanger = () => {
                     Not only does it spread awareness but also helps NGOs working towards these causes raise funds by including their donation details at each loss or win with a message. It has successfully helped raise over 60,000 rupees for 4+ NGOs.
                 </p>
                 <button className='w-[180px] bg-purple rounded-lg hover:bg-lightpurple p-2  text-white hover:text-gray mb-5 '>
-                    <a href="" className='font-quicksand font-[700] text-[18px]'>Project Report</a>
+                    <a href="https://drive.google.com/file/d/1EB8g7e4s5PosVqhoVP83P5VRJ4PyZl7H/view?usp=drive_link" className='font-quicksand font-[700] text-[18px]'>Project Report</a>
                 </button>
             </div>
             <div className='flex-1 flex justify-center '>

@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router-dom"
 import Layout from "./Layout"
-import { HomePage, LeadershipPage, CommunityPage, ContactPage, ExtraCurricularPage, ProjectsPage, AuthorPage, SummerSchoolPage, Drums, Drama, Piano, Bharatnatyam, Error, Brewscape } from './pages'
+import { HomePage, LeadershipPage, CommunityPage, ContactPage, ExtraCurricularPage, ProjectsPage, AuthorPage, SummerSchoolPage, Drums, Drama, Piano, Bharatnatyam, Error, Brewscape, Author, Book } from './pages'
 import './App.css'
 
 
@@ -11,7 +11,10 @@ function App() {
         <Route element={<HomePage />} index />
         <Route element={<LeadershipPage />} path="leadership" />
         <Route element={<ProjectsPage />} path="projects" />
-        <Route element={<AuthorPage />} path="author" />
+        <Route element={<AuthorPage />} path="author">
+          <Route element={<Author />} path="authorabout" />
+          <Route element={<Book />} path='book' />
+        </Route>
         <Route element={<SummerSchoolPage />} path="summerschool" />
         <Route element={<ExtraCurricularPage />} path="extracurricular" >
           <Route element={<Drums />} path="drums" />

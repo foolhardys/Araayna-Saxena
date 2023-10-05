@@ -24,6 +24,7 @@ export default {
       'talent': '#D8C6F6',
       'dark-purple': '#6F38C9',
       'deep-purple': '#2E2340',
+      'bg-purple': '#2E2340',
     },
     fontFamily: {
       garamond: ["Cormorant Garamond", 'serif'],

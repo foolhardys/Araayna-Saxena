@@ -2,7 +2,7 @@ import React from 'react'
 import PageHero from '../components/Author/PageHero'
 import PageArticle from '../components/Author/PageArticle'
 import PagePara from '../components/Author/PagePara'
-import PageMainArticle from '../components/Author/PageMainArticle'
+import { Outlet } from 'react-router-dom'
 
 const AuthorPage = () => {
   return (
@@ -10,7 +10,7 @@ const AuthorPage = () => {
       <PageHero />
       <PageArticle />
       <PagePara />
-      {/* <PageMainArticle /> */}
+      <Outlet/>
     </section>
   )
 }

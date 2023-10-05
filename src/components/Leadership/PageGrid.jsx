@@ -13,7 +13,7 @@ import Boxone from '../Assets/Leadership/Conditionalbox/1.png'
 import Boxtwo from '../Assets/Leadership/Conditionalbox/2.png'
 
 
-const griditems = [
+let griditems = [
     {
         id: 1,
         title: 'Protection of Children from Sexual Offenses (POCSO)',
@@ -21,6 +21,7 @@ const griditems = [
         boxheading: 'Protection of Children from Sexual Offenses (POCSO) and the Prevention of Sexual Harassment Act (POSH) Workshops and Training session',
         boxcontent: "This workshop was implemented in collaboration with the high school faculty, Police Department, and Cyber Crime Cell for students, and training sessions for the faculty, support and transportation staff to educate them on prevention, prohibition, and protection against sexual harassment. Designed educational boards to enhance vigilance and safeguarding measures through scenario based learning, placing them throughout the school.Collaborated with the schools Tech Head to create 'Good & Bad Touch' animation videos for Primary school students Extended educational efforts to over 2000 underprivileged children through NGO: Uthaan.Developed English and Hindi tests with the Editorial Board to understand the acts in context of real-world scenarios, achieving a 95% success rate in test results.",
         button: true,
+        box: false,
     },
     {
         id: 2,
@@ -29,6 +30,7 @@ const griditems = [
         boxheading: 'Campaign Aikyam - Mission Literacy-means unity or oneness)',
         boxcontent: "“Over 9 lakh incidents of phishing, OTP compromise reported in last two years; 42% Indians have experienced financial fraud” Established and led “Campaign Aikyam- Mission Literacy” to promote digital literacy and raise awareness about scams such as Phishing or Impersonation Scams with 500+ slum residents of Naya Basera through multiple sessions and skits.",
         button: true,
+        box: false,
     },
     {
         id: 3,
@@ -46,7 +48,8 @@ const griditems = [
                 img: Boxtwo
             }
         ],
-        button: true
+        button: true,
+        box: false,
     },
     {
         id: 4,
@@ -55,7 +58,8 @@ const griditems = [
         urls: [],
         boxheading: 'Menstrual Hygiene Survey and Implementation',
         boxcontent: 'Surveyed high school girls on discomfort during periods at school via Google Forms, receiving 100+ student responses. Presented findings to the principal, leading to the installation of sanitary napkin vending machines, informative sessions on menstrual hygiene, and the provision of menstrual hygiene-friendly dustbins.',
-        button: true
+        button: true,
+        box: false
     },
     {
         id: 5,
@@ -64,7 +68,8 @@ const griditems = [
         urls: [],
         boxheading: 'HS EXAMINATION COMMITTEE',
         boxcontent: 'Collaborated with school administrators to create educational materials on academic integrity, and successfully planned remedial action for cases of misconduct during examinations throughout the year, effectively promoting maintenance of students’ integrity.',
-        button: false
+        button: false,
+        box: false,
     },
     {
         id: 6,
@@ -73,7 +78,8 @@ const griditems = [
         urls: [],
         boxheading: 'Child Abuse Monitoring Commitee',
         boxcontent: 'Installation of suggestion boxes  to ensure that any concerns of the students regarding their safety were addressed. The committee including the Principal, Primary, Middle and High School faculty heads met every month to read the suggestions and addressed the concerns in the Assembly.',
-        button: false
+        button: false,
+        box: false
     },
     {
         id: 7,
@@ -82,7 +88,8 @@ const griditems = [
         urls: [],
         boxheading: 'Alleviating Stress through Yoga',
         boxcontent: "Initiated yoga sessions to alleviate student stress and anxiety during exams starting at International Yoga Day, with participation from 300+ students, resulting in a decrease in reported stress levels and physical manifestations of exam anxiety.",
-        button: true
+        button: true,
+        box: false,
     },
     {
         id: 8,
@@ -103,6 +110,7 @@ const griditems = [
             }
         ],
         boxheading: 'Competitions',
+        box: false,
         boxcontent: 'Led the student council to manage several Inter-school and Inter-house Competitions including Aravindakshan Debate Competition (attended by schools from across India), CISCE Regional Sports Meet, Inter-House Theatre Competition, Inter-House Sign Language Competition.',
     },
     {
@@ -121,14 +129,18 @@ const griditems = [
                 id: 2,
                 url: ''
             }
-        ]
+        ],
+        box: false,
     }
 ]
 
 
 
 const PageGrid = () => {
-    
+
+    // const [showBox, setShowBox] = useState(griditem.box)
+
+
     return (
         <article className=' py-28 lg:px-[200px] lg:w-[1280px] bg-primary shadow-md rounded-md flex flex-col gap-5 my-8 w-full px-3'>
             <h1 className='font-display text-center md:text-[36px] text-[32px] lg:ml-0 md:ml-2 leading-[40px] font-[400] mb-[40px] self-start'>
@@ -139,13 +151,13 @@ const PageGrid = () => {
             </p>
             <article className='md:min-w-[600px] grid gap-x-[80px] gap-y-[20px] md:grid-cols-3 md:grid-rows-3 grid-cols-1 grid-rows-9 w-full  p-4'>
                 {griditems.map((griditem, index) => {
-                    const { id, title, img } = griditem
+                    const { id, title, img, box } = griditem
                     return <article key={index} className='lg:w-[300px] w-[200px] mb-4 md:mb-0 lg:h-[250px] h-[180px] rounded-sm border-2 border-secondary mx-auto flex items-center justify-center relative p-4 hover:bg-dark-purple z-10 hover:text-white transition-all' >
                         <h2 className='text-[16px] text-center font-[700] font-quicksand capitalize'>
                             {title}
                         </h2>
                         <img src={img} alt={title} className='absolute top-0 left-0 w-full h-full' />
-                        <ClickedBox key={id} {...griditem}  />
+                        <ClickedBox key={id} {...griditem} id={id} />
                     </article>
                 })}
             </article>

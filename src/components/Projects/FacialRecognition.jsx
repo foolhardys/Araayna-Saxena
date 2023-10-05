@@ -18,7 +18,7 @@ const FacialRecognition = () => {
       <div className='w-2/6'>
         <img src={Three} alt="Funfilters" className='h-[200px] md:block hidden' />
       </div>
-      {showCard && <div className='bg-bg-purple w-[720px] flex gap-4 justify-between items-center absolute top-0 left-0 p-6 rounded-md' onClick={() => setShowCard(false)} onMouseLeave={() => setShowCard(false)}>
+      {showCard && <div className='bg-bg-purple z-10 md:w-[720px] w-full flex gap-4 justify-between items-center absolute top-0 left-0 p-6 rounded-md' onClick={() => setShowCard(false)} onMouseLeave={() => setShowCard(false)}>
         <div className='w-4/6'>
           <h1 className='font-quicksand font-[700] text-[20px] text-white mb-4'>Facial Emotion Recognizer :</h1>
           <p className='font-quicksand font-[400] text-[18px] text-white mb-4'>
@@ -26,7 +26,7 @@ const FacialRecognition = () => {
             Can be used in immersive VR/AR, improved human-computer interaction, driver safety through emotion detection, education support, market research, and security via emotion analysis in public places.
 
           </p>
-          <button className='bg-purple hover:bg-lightpurple text-white hover:text-dark-gray p-4 rounded-md font-quicksand font-[700] text-[18px] w-[200px]'>Project Report</button>
+          <button className='bg-purple hover:bg-lightpurple text-white hover:text-dark-gray p-4 rounded-md font-quicksand font-[700] text-[18px] w-[200px]'><a href="https://drive.google.com/file/d/1m6v6oOMYg0S1qwRfnyELhnEXAkRlqqvN/view?usp=drive_link">Project Report</a></button>
         </div>
         <div className='w-2/6'>
           <img src={Three} alt="Funfilters" className='h-[200px] md:block hidden' />

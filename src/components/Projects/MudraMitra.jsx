@@ -17,7 +17,7 @@ const MudraMitra = () => {
       <div className='w-2/6'>
         <img src={Two} alt="Funfilters" className='h-[200px] md:block hidden' />
       </div>
-      {showCard && <div className='bg-bg-purple w-[720px] flex gap-4 justify-between items-center absolute top-0 left-0 p-6 rounded-md' onClick={() => setShowCard(false)} onMouseLeave={() => setShowCard(false)}>
+      {showCard && <div className='bg-bg-purple z-10 md:w-[720px] w-full flex gap-4 justify-between items-center absolute top-0 left-0 p-6 rounded-md' onClick={() => setShowCard(false)} onMouseLeave={() => setShowCard(false)}>
         <div className='w-4/6'>
           <h1 className='font-quicksand font-[700] text-[20px] text-white mb-4'>MudraMitrita : Bridging Bharatnatyam and ML:</h1>
           <p className='font-quicksand font-[400] text-[18px] text-white mb-4'>

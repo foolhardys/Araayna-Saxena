@@ -4,7 +4,7 @@ import YoutubePlayer from '../components/YoutubePlayer'
 
 const Piano = () => {
   return (
-    <article className=' max-w-[1280px] shadow-xl rounded-3xl flex flex-col items-center justify-center'>
+    <article className=' lg:w-[1280px] w-full shadow-xl rounded-3xl flex flex-col items-center justify-center'>
       <div className='w-full bg-talent flex justify-center h-[230px] items-center rounded-3xl'>
         <div className='p-1 w-full'>
           <h1 className='lg:text-left text-center lg:text-[70px] md:text-[60px] text-[50px] font-[400] font-display capitalize text-secondary '> Piano</h1>
@@ -18,9 +18,6 @@ const Piano = () => {
             • Pursuing examination from Trinity College of London
             <br />
           </p>
-          <button className=' w-[140px] bg-purple text-white hover:bg-lightpurple hover:text-gray p-2 rounded-sm mt-8 transition'>
-            <p className='font-serif font-[700] text-[14px] italic'>My certificate</p>
-          </button>
         </div>
       </div>
       <div className='w-full flex justify-start px-[100px] min-h-[300px] lg:items-start items-center gap-5 lg:flex-row flex-col mb-10'>

@@ -1,21 +1,21 @@
 import React from 'react'
-import One from '../Assets/Leadership/Editorial/1.png'
-import Two from '../Assets/Leadership/Editorial/2.png'
+import Billabong from './Billabong'
+import Tete from './Tete'
 
-const griditems = [
-    {
-        id: 1,
-        title: 'Billabong Bulletin',
-        img: One,
-        url: ''
-    },
-    {
-        id: 2,
-        title: 'Tete-a-tete',
-        img: Two,
-        url: ''
-    },
-]
+// const griditems = [
+//     {
+//         id: 1,
+//         title: 'Billabong Bulletin',
+//         img: One,
+//         url: ''
+//     },
+//     {
+//         id: 2,
+//         title: 'Tete-a-tete',
+//         img: Two,
+//         url: ''
+//     },
+// ]
 
 const PageGrid2 = () => {
     return (
@@ -24,17 +24,19 @@ const PageGrid2 = () => {
                 Editorial Board Member <br /> (2020-2021) :
             </h1>
             <article className='md:min-w-[600px] grid gap-x-[80px] gap-y-[20px] md:grid-cols-3 md:grid-rows-1 grid-cols-1 grid-rows-2 w-full  p-4'>
-                {griditems.map((griditem) => {
+                {/* {griditems.map((griditem) => {
                     const { id, title, img } = griditem
-                    return <article key={id} className='lg:w-[300px] w-[200px] mb-4 md:mb-0 lg:h-[250px] h-[180px] rounded-sm border-2 border-secondary mx-auto flex items-center justify-center relative p-4'>
+                    return <article key={id} className='lg:w-[300px] w-[200px] mb-4 md:mb-0 lg:h-[250px] h-[180px] rounded-sm border-2 border-secondary mx-auto flex items-center justify-center relative p-4 hover:bg-dark-purple z-10 hover:text-white transition-all'>
                         <h2 className='text-[16px] text-center font-[700] font-quicksand capitalize'>
                             {title}
                         </h2>
                         <img src={img} alt={title} className='absolute top-0 left-0 w-full h-full' />
                     </article>
-                })}
+                })} */}
+                <Billabong/>
+                <Tete/>
             </article>
-        </article>
+        </article> 
     )
 }
 

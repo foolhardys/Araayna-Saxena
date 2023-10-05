@@ -17,8 +17,8 @@ const Uthaan = () => {
                     <br />
                     •Impacted over 5000+ individuals through these initiatives.
                 </p>
-                <button className='bg-purple rounded-md  p-2'>
-                    <a href="http://uthaanfoundation.com/" className='text-[18px] font-quicksand font-[700] text-white'>Visit Website</a></button>
+                <button className='bg-purple rounded-md  p-4 hover:bg-lightpurple hover:text-gray  text-white transition'>
+                    <a href="http://uthaanfoundation.com/" className='text-[18px] font-quicksand font-[700]'>Visit Website</a></button>
             </div>
             <div>
                 <UthaanSlider />

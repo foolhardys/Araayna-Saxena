@@ -16,8 +16,8 @@ const Billabong = () => {
             {showBox && <div className='bg-bg-purple p-[50px] lg:w-[800px] md:w-[700px] w-[400px] absolute top-0 lg:left-0 z-10 gap-5 flex md:flex-row flex-col' onMouseLeave={()=> setShowBox(false)}>
                 <div className='md:w-3/5 w-full'>
                     <h1 className='text-[18px] font-[700] font-quicksand capitalize mb-8 text-left text-white'>Billabong Bulletin</h1>
-                    <p className='text-[16px]  font-[400]  text-gray font-quicksand mb-4'>Curated 5 issues of The Billabong Bulletin- A quarterly School Newsletter with the Editorial Board.
-                        Started the  “Mode de Vie” - Lifestyle page in the newsletter featuring seasonal themes, health and wellness guides, trends, and interesting blogs. The addition added variety to the newsletter, and received a 50% boost in submissions from readers within the first month. <br />
+                    <p className='text-[16px]  font-[400]  text-white font-quicksand mb-4'>Curated 5 issues of The Billabong Bulletin- A quarterly School Newsletter with the Editorial Board. <br /><br />
+                        Started the  “Mode de Vie” - Lifestyle page in the newsletter featuring seasonal themes, health and wellness guides, trends, and interesting blogs. The addition added variety to the newsletter, and received a 50% boost in submissions from readers within the first month. <br /> <br />
 
                         • Theme Selection: Collaborated on choosing themes for each issue.
                         <br />

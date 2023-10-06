@@ -21,7 +21,7 @@ const MudraMitra = () => {
         <div className='w-4/6'>
           <h1 className='font-quicksand font-[700] text-[20px] text-white mb-4'>MudraMitrita : Bridging Bharatnatyam and ML:</h1>
           <p className='font-quicksand font-[400] text-[18px] text-white mb-4'>
-            "MudraMitra" is an innovative Bharatanatyam AI project that revolutionizes the learning of this ancient Indian dance form. Through advanced AI technology, it identifies intricate hand gestures known as "mudras" and provides students with their significance and meanings in real-time to benefit students and enthusiasts alike.
+            "MudraMitra" is an innovative Bharatanatyam AI project that revolutionizes the learning of this ancient Indian dance form. Through advanced AI technology, it identifies intricate hand gestures known as "mudras" and provides students with their significance and meanings in real-time to benefit students and enthusiasts alike. <br /> <br />
             Shared with notable Bharatnatyam academies, with thousands of users.
           </p>
           <button className='bg-purple hover:bg-lightpurple text-white hover:text-dark-gray p-4 rounded-md font-quicksand font-[700] text-[18px] w-[200px]'>Project Report</button>

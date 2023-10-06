@@ -28,8 +28,7 @@ const PageHero = () => {
                     <video width="320" height="340" controls className='h-[340px] w-[500px] shadow-md rounded-md'>
                         <source src={Video} type="video/mp4" />
                     </video>
-                    <p className='text-[16px] font-[400] font-roboto my-1'>At a local cafe in Malaysia, 2018
-</p>
+                    <p className='text-[16px] font-[400] font-roboto my-1'>At a local cafe in Malaysia, 2018</p>
                 </div>
                 <img src={Bg} alt="" className='absolute top-0 left-0 h-full w-full opacity-90 -z-10' />
             </div>

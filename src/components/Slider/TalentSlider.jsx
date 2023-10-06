@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { Pagination } from 'swiper/modules';
 import SingleTalent from '../Extracurricular/SingleTalent';
 import 'swiper/css';
 
@@ -35,7 +36,9 @@ const TalentSlider = () => {
 
     return (
         <Swiper
-            spaceBetween={50}
+            spaceBetween={50} 
+            pagination={true}
+            modules={[Pagination]}
             breakpoints={{
                 768: {
                     slidesPerView: 2,

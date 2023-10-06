@@ -10,18 +10,18 @@ const Drums = () => {
         </div>
       </div>
       <div className='flex lg:flex-row flex-col w-[1280px] mt-[30px]' >
-        <div className=' flex justify-center lg:min-h-[250px] items-center lg:flex-row flex-col flex-2'>
-          <div className='flex-1 px-20 my-10'>
+        <div className=' flex justify-center lg:min-h-[250px] items-start lg:flex-row flex-col flex-2'>
+          <div className='flex-1 px-20'>
             <p className='font-quicksand font-[400] text-[18px]'>
-              Dedicated to learning the drums from the Trinity College of London, fueled by a deep <br /> passion for rock and roll:
+             •  Dedicated to learning the drums from the Trinity College of London, fueled by a deep passion for rock and roll. <br />  <br />•  Played at school’s annual functions and <br /> MAFFICK,the annual techno-cultural fest of NIT Bhopal which is Central India's premier college fest
             </p>
             <button className=' w-[140px] bg-purple text-white hover:bg-lightpurple hover:text-gray p-2 rounded-sm mt-8 transition'>
-              <a href='https://drive.google.com/file/d/17soArb66Fy7Swz5zmfEXNkoquPC1oJ7d/view?usp=sharing' className='font-serif font-[700] text-[14px] italic'>My Degree</a>
+              <a href='https://drive.google.com/file/d/17soArb66Fy7Swz5zmfEXNkoquPC1oJ7d/view?usp=sharing' className='font-serif font-[700] text-[14px]' target='_blank' rel="noreferrer">My Degree</a>
             </button>
           </div>
         </div>
         <div className='w-full flex justify-start px-[100px] min-h-[300px] lg:items-start items-center gap-5 lg:flex-row flex-col mb-10  flex-1'>
-          <YoutubePlayer url='https://www.youtube.com/embed/WBey6xAI1aU?si=nuPJpScLv36ZflDm' para='KNOCK ON WOOD, Eddie Floyd- Trinity Rock & Pop Drums Grade 2
+          <YoutubePlayer url='https://www.youtube.com/embed/JQPCTIQ_Qc0?si=IQoC4zuD1-hfYUCh' para='KNOCK ON WOOD, Eddie Floyd- Trinity Rock & Pop Drums Grade 2
 ' />
         </div>
       </div>

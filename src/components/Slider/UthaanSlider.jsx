@@ -2,16 +2,16 @@
 import Slider from "react-slick";
 import "./slick.css";
 import "./slick-theme.css";
-import One from '../Assets/UthaanSlider/Uthaan-1.png'
-import Two from '../Assets/UthaanSlider/Uthaan-2.png'
-import Three from '../Assets/UthaanSlider/Uthaan-3.png'
+import One from '../Assets/UthaanSlider/Uthaan-1.jpg'
+import Two from '../Assets/UthaanSlider/Uthaan-2.jpg'
+import Three from '../Assets/UthaanSlider/Uthaan-3.jpg'
 
 
 const UthaanSlider = () => {
 
   const settings = {
     dots: true,
-    infinite: false,
+    infinite: true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1
@@ -20,13 +20,13 @@ const UthaanSlider = () => {
   return (
     <Slider {...settings}>
       <div>
-        <img src={One} alt="Uthaan" />
+        <img src={One} alt="Uthaan"  className="w-full h-full rounded-md"/>
       </div>
       <div>
-        <img src={Two} alt="Uthaan" />
+        <img src={Two} alt="Uthaan" className="w-full h-full rounded-md" />
       </div>
       <div>
-        <img src={Three} alt="Uthaan" />
+        <img src={Three} alt="Uthaan" className="w-full h-full rounded-md" />
       </div>
     </Slider>
   )

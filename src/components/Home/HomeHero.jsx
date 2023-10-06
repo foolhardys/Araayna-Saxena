@@ -1,5 +1,5 @@
 import React from 'react'
-import Bg from '../Assets/Home/arayna.png'
+import Bg from '../Assets/Home/Arayna.jpg'
 
 
 const HomeSlider = () => {

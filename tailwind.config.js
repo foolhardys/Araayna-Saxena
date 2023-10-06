@@ -25,6 +25,8 @@ export default {
       'dark-purple': '#6F38C9',
       'deep-purple': '#2E2340',
       'bg-purple': '#2E2340',
+      'gray-white-bg': '#00000040',
+      'div-bg': '#F6EBF7',
     },
     fontFamily: {
       garamond: ["Cormorant Garamond", 'serif'],

@@ -1,8 +1,9 @@
 import React from 'react'
+import PageArticle from '../components/Author/PageArticle'
 
 const Book = () => {
   return (
-    <div>Book</div>
+      <PageArticle/>
   )
 }
 

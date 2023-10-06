@@ -9,7 +9,7 @@ import Piano from './Piano'
 
 const ExtraCurricularPage = () => {
   return (
-    <section className='min-h-screen flex flex-col items-center'>
+    <section className='min-h-screen flex flex-col items-center justify-evenly'>
       <PageHero />
       <TalentSlider />
       <Bharatnatyam />

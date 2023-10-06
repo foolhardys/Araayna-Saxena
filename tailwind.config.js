@@ -27,6 +27,7 @@ export default {
       'bg-purple': '#2E2340',
       'gray-white-bg': '#00000040',
       'div-bg': '#F6EBF7',
+      'light-blue': '#8B93DB',
     },
     fontFamily: {
       garamond: ["Cormorant Garamond", 'serif'],
@@ -36,7 +37,8 @@ export default {
       libre: ['Libre Baskerville', 'serif'],
       display: ['DM Serif Display', 'serif'],
       quicksand: ['Quicksand', 'sans-serif'],
-      roboto: ['Roboto', 'sans-serif']
+      roboto: ['Roboto', 'sans-serif'],
+      courier: ['Courier Prime', 'monospace']
     },
   },
   plugins: [],

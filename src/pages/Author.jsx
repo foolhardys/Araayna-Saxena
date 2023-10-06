@@ -1,18 +1,9 @@
 import React from 'react'
-import './AuthorStyleSheets/Author.css'
+import AboutAuthorHero from '../components/Author/AboutAuthorHero'
 
 const Author = () => {
   return (
-    
-    <div className="picpage">
-        <div className="immg"></div>
-
-        <p className="Auth_jur">The Author's Journey</p>
-
-        <p className="name">Arayna Saxena</p>
-
-
-    </div>
+    <AboutAuthorHero/>
   )
 }
 

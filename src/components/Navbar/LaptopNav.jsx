@@ -14,7 +14,7 @@ const LaptopNav = () => {
     const [projectDropdown, setProjectDropdown] = useState(false);
 
     return (
-        <div className='w-full p-4 lg:flex justify-evenly items-center bg-primary shadow-lg gap-4 h-[134px] hidden'>
+        <div className='w-full p-4 lg:flex justify-evenly items-center bg-white shadow-lg gap-4 h-[134px] hidden'>
             <h1 className='text-center lg:text-[96px] text-[80px] font-[400] mb-2 text-secondary font-display'>
                 A.
             </h1>

@@ -30,7 +30,7 @@ const CafeAnalysis = () => {
 
 
           </p>
-          <button className='bg-purple hover:bg-lightpurple text-white hover:text-dark-gray p-4 rounded-md font-quicksand font-[700] text-[18px] w-[200px]'> <a href="https://github.com/AraynaSaxena/Cafe-success-analysis-using-ML" target='_blank' rel="noreferrer">Project</a></button>
+          <button className='bg-purple hover:bg-lightpurple text-white hover:text-dark-gray p-4 rounded-md font-quicksand font-[700] text-[18px] w-[200px]'> <a href="https://drive.google.com/file/d/1fMXXmbMdR5nrp9R5H1GrWSiNMUxJuBnR/view?usp=share_link" target='_blank' rel="noreferrer">Project</a></button>
         </div>
         <div className='w-2/6'>
           <img src={Four} alt="Funfilters" className='h-[200px] md:block hidden' />

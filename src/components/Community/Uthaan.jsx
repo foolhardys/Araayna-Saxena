@@ -21,7 +21,7 @@ const Uthaan = () => {
                 <button className='bg-purple rounded-md  text-[18px] font-quicksand font-[700] px-4 py-2 hover:bg-lightpurple hover:text-gray  text-white transition ml-[30px]'>
                     <a href="http://uthaanfoundation.com/" className='text-[18px] font-quicksand font-[700]' target='_blank' rel="noreferrer">Visit Website</a></button>
             </div>
-            <div className='w-3/5 translate-y-[30px]'>
+            <div className='w-3/5 translate-y-[30px] h-[400px]'>
                 <UthaanSlider />
             </div>
         </article>

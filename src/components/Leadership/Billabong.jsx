@@ -30,12 +30,12 @@ const Billabong = () => {
                         • Writing: Authored various write-ups, including event coverage.
                     </p>
                 </div>
-                <div className='flex flex-col gap-4 md:w-2/5 w-full'>
+                <div className='flex flex-col gap-1 md:w-2/5 w-full justify-center items-center'>
                     <div className='flex flex-1 flex-col gap-2 rounded-xl' >
                         <img src={img} alt="" className='rounded-xl' />
                         <p className='text-white px-4 font-quicksand font-[600] text-[12px]'>Link to more Publications :</p>
                     </div>
-                    <div className='gap-2 p-2 bg-purple/80 rounded-md '>
+                    <div className='gap-2 p-2 bg-purple/80 rounded-md -translate-y-[100px]'>
                         <p className='overflow-hidden'>
                             <a href="https://www.billabonghighbhopal.com/pdf/newsletter-july-2020.pdf" className='mr-2 underline text-white hover:text-dark-gray font-roboto font-[100] '>July,2020</a>   
                             <a href="https://www.billabonghighbhopal.com/pdf/newsletter-oct-2020.pdf" className='mr-2 underline text-white hover:text-dark-gray font-roboto font-[100] '>October,2020</a>

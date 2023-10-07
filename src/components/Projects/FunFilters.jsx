@@ -26,7 +26,7 @@ const FunFilters = () => {
             Best Used with HP or Windows as layout might vary with IOS
 
           </p>
-          <button className='bg-purple hover:bg-lightpurple text-white hover:text-dark-gray p-4 rounded-md font-quicksand font-[700] text-[18px] w-[200px] mt-[30px]'><a href="https://araynasaxena.github.io/Face-Filters-using-Face-Recognition/" target='_blank' rel='noreferrer'>Check it out!</a></button>
+          <button className='bg-purple hover:bg-lightpurple text-white hover:text-dark-gray p-4 rounded-md font-quicksand font-[700] text-[18px] w-[200px] mt-[30px]'><a href="https://araynasaxena.github.io/FunFilters-Using-Facial-Recognition/" target='_blank' rel='noreferrer'>Check it out!</a></button>
         </div>
         <div className='w-2/6 self-start' >
           <img src={One} alt="Funfilters" className='h-[300px] md:block hidden' />

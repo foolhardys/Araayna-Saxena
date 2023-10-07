@@ -16,7 +16,7 @@ const ExtraCurricularPage = () => {
       <Drama />
       <Drums />
       <Piano />
-      <Outlet />
+      {/* <Outlet /> */}
     </section>
   )
 }

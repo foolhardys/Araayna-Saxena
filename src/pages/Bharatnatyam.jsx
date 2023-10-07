@@ -5,13 +5,13 @@ import { AiOutlineDown } from 'react-icons/ai'
 
 const Bharatnatyam = () => {
   return (
-    <article className='lg:w-[1280px] w-full shadow-xl rounded-3xl flex flex-col items-center mt-20 mb-20 relative p-4'>
+    <article className='lg:w-[1280px] w-full shadow-xl rounded-3xl flex flex-col items-center mt-20 mb-20 relative '>
       <div className='w-full bg-talent flex justify-start px-[60px] min-h-[230px] items-center rounded-3xl'>
         <div className='py-4 lg:w-[980px] md:w-[700px] w-[420px]'>
           <h1 className='text-left lg:text-[60px] md:text-[60px] text-[50px] leading-[65px] font-[400] font-display capitalize text-secondary '>Trained <br /> Bharatnatyam Dancer</h1>
         </div>
       </div>
-      <div className='flex justify-center self-start lg:min-h-[250px] mt-4 lg:mt-0 items-center gap-10 lg:flex-row flex-col w-[600px]'>
+      <div className='flex justify-center self-start lg:min-h-[250px] mt-4 lg:mt-0 items-center gap-10 lg:flex-row flex-col w-[600px] px-8'>
         <div className=' lg:w-[1280px] md:w-[700px] w-[600px] px-[5px]'>
           <p>Trained in Bharatanatyam through 8+ years of relentless dedication and attained an esteemed degree, attesting to the depth of knowledge and expertise in this classical dance form.
           </p>
@@ -24,7 +24,7 @@ const Bharatnatyam = () => {
             </button>
           </div>
         </div>
-        <div className=' flex justify-center lg:absolute lg:top-[15px] lg:right-0 rounded-md md:translate-x-12 lg:translate-x-0 h-[510px] w-[400px]'>
+        <div className=' flex justify-center lg:absolute lg:top-[0px] lg:right-0 rounded-md md:translate-x-12 lg:translate-x-0 h-[510px] w-[400px]'>
           <DanceSlider />
         </div>
       </div>

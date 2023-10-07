@@ -40,8 +40,17 @@ export default {
       quicksand: ['Quicksand', 'sans-serif'],
       quicksandlight: ['Quicksand', 'sans-serif'],
       roboto: ['Roboto', 'sans-serif'],
-      courier: ['Courier Prime', 'monospace']
+      courier: ['Courier Prime', 'monospace'],
+      dancing: ['Dancing Script', 'cursive'],
     },
+    extend: {
+      backgroundImage: {
+        'book-1': "url('src/components/Assets/Author/Book/bg-1.jpg')",
+        'book-2': "url('src/components/Assets/Author/Book/bg-4.jpg')",
+        'book-3': "url('src/components/Assets/Author/Book/bg-2.jpg')",
+        'book-4': "url('src/components/Assets/Author/Book/bg-3.jpg')",
+      }
+    }
   },
   plugins: [],
 }

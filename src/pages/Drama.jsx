@@ -21,9 +21,7 @@ const Drama = () => {
       <div className='w-full flex justify-start lg:px-[35px] px-[100px] min-h-[300px] lg:items-start lg:mt-0 mt-8 items-center gap-5 lg:flex-row flex-col mb-10 flex-wrap'>
         <YoutubePlayer url='https://www.youtube.com/embed/PKlfQ4qjCkw?si=tCF1OQXHdVZdcKFb' para='Presented comprehensive manuals on the “Art of Playwriting”
 ' />
-        <YoutubePlayer url='https://www.youtube.com/embed/oZMzRjHqQCI?si=A1STtB0lrP2Ex3SU' para=' Play on “Public Safety of Women,” resulting in an audience of 250+ children and adults from Chaitanya Kul and ThinkSharp Foundation 
-Links: Play , certificate from d rive , Blog1, Blog 2
-'/>
+        <YoutubePlayer url='https://www.youtube.com/embed/oZMzRjHqQCI?si=A1STtB0lrP2Ex3SU' para=''/>
         <YoutubePlayer url='https://www.youtube.com/embed/kP70_zLaow4?si=wH6Ik8QkoilCYs61' para=' Assisted in writing the script for the short movie - Misclick,an amalgam of dance,drama and music for the online Annual Concert in times of COVID.It was a movie written, directed, edited and shot by Billabongers.' />
         <div className='bg-div-bg flex flex-col justify-center items-center rounded-xl'>
           <img src={One} alt="drama" className='h-[220px] w-[390px] rounded-xl' />

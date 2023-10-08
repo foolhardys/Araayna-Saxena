@@ -1,8 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 export default {
+  purge: ["./src/pages/**/*.{js,ts,jsx,tsx}", "./src/components/**/*.{js,ts,jsx,tsx}",],
   content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
+    // Example content paths...
+    './public/**/*.html',
+    './src/**/*.{js,jsx,ts,tsx,vue}',
   ],
   theme: {
     colors: {

@@ -5,7 +5,7 @@ const BookBox = ({ img, para, button, buttontitle, link, id }) => {
     return (
         <>
             <article className='flex items-center justify-center p-4'>
-                <div className='w-[450px] min-h-[500px] bg-purple/50 rounded-md flex flex-col pt-2'>
+                <div className='w-[450px] min-h-[500px] bg-purple/50 rounded-md flex flex-col pt-2 shadow-lg'>
                     <img src={img} alt='' className='w-[full]' />
                     {
                         para && <p className=' p-2 text-[18px] font-quicksand font-[40px] m-5'>
@@ -35,7 +35,7 @@ const BookBox = ({ img, para, button, buttontitle, link, id }) => {
                         </p>
                     }
                     {button && <button className='bg-dark-purple p-2 text-[18px] font-quicksand font-[700] text-white hover:bg-lightpurple hover:text-dark-gray w-[150px] m-4 rounded-md transition'>
-                        <a href="link" target="_blank" rel="noopener noreferrer">{buttontitle}</a>
+                        <a href={link} target="_blank" rel="noopener noreferrer">{buttontitle}</a>
                     </button>}
                     {
                         id === 5 && <div className='flex flex-col items-center justify-center'>

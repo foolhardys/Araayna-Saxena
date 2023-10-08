@@ -1,10 +1,8 @@
 import React from 'react'
-import One from '../Assets/Author/Contact/1.jpg'
 
 const Contact = () => {
     return (
-        <article className='lg:p-4 p-8 w-full flex flex-col relative'>
-            <img src={One} alt="Contact" />
+        <article className='lg:p-4 p-8 w-full flex flex-col relative bg-bg-contact min-h-[70vh] bg-center bg-cover mt-[70px]'>
             <div className='absolute top-[50px] left-[150px]'>
                 <h1 className='font-[300] text-[42px] capitalize  text-secondary mb-[40px] text-left font-courier'>Contact Information</h1>
                 <div className='flex flex-col justify-center'>

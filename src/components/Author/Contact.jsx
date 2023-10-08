@@ -1,17 +1,19 @@
 import React from 'react'
+import One from '../Assets/Author/Contact/1.jpg'
 
 const Contact = () => {
-  return (
-    <section className='bg-bg-contact bg-center bg-cover flex justify-start items-center h-full w-full relative z-10 lg:w-[1280px]'>
-        <div className='lg:w-1/2 w-full flex flex-col px-[30px] py-[100px] justify-evenly h-[90vh]'>
-            <h1 className='text-secondary font-[500] font-courier leading-[50px] md:text-[65px] text-[50px] p-2'>Contact <br />Information</h1>
-            <div>
-                <h3 className='text-secondary font-[400] font-courier mt-[40px] leading-[45px] p-2 text-[35px]'>E-mail Address</h3>
-                <a href="mailto:arayna.downpour@gmail.com" className='text-[20px] p-2 font-courier text-secondary'>arayna.downpour@gmail.com</a>
+    return (
+        <article className='lg:p-4 p-8 w-full flex flex-col relative'>
+            <img src={One} alt="Contact" />
+            <div className='absolute top-[50px] left-[150px]'>
+                <h1 className='font-[300] text-[42px] capitalize  text-secondary mb-[40px] text-left font-courier'>Contact Information</h1>
+                <div className='flex flex-col justify-center'>
+                    <h3 className='font-courier text-[26px] capitalize font-[300] text-secondary mb-[40px] text-left leading-8'>E-mail Address : </h3>
+                    <a href="mailto:arayna.downpour@gmail.com" className='text-light-blue font-quicksand text-[18px]'>arayna.downpour@gmail.com</a>
+                </div>
             </div>
-        </div>
-    </section>
-  )
+        </article>
+    )
 }
 
 export default Contact

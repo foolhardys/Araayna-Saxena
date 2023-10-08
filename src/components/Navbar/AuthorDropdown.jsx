@@ -6,12 +6,12 @@ const sublinks = [
     {
         id: 1,
         text: 'About book',
-        url: '/book'
+        url: '/author/book'
     },
     {
         id: 2,
         text: 'author',
-        url: '/author'
+        url: '/author/authorabout'
     }
 ]
 

@@ -4,6 +4,7 @@ import CommunityPage from './CommunityPage'
 import ContactPage from './ContactPage'
 import ExtraCurricularPage from './ExtraCurricularPage'
 import ProjectsPage from './ProjectsPage'
+import AuthorPage from './AuthorPage'
 import SummerSchoolPage from './SummerSchoolPage'
 import Drama from './Drama'
 import Drums from './Drums'
@@ -21,6 +22,7 @@ export {
     ContactPage,
     ExtraCurricularPage,
     ProjectsPage,
+    AuthorPage,
     SummerSchoolPage,
     Drama,
     Drums,

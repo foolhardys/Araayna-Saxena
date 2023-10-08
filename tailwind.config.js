@@ -47,14 +47,10 @@ export default {
     },
     extend: {
       backgroundImage: {
-        'bg-1': "url(src/pages/svgs/bgggg.svg)",
-        'bg-2': "url(src/pages/svgs/story_page_1.svg)",
-        'bg-3': "url(src/pages/svgs/story_page_2.svg)",
-        'bg-contact': "url(src/components/Author/Contact/one.svg)",
-        'book-3': "url(src/components/Assets/Author/bookbg1.jpg)",
-        'book-1': "url('src/components/Assets/Author/bookbg2.svg')",
-        'book-2': "url('src/components/Assets/Author/bookbg3.jpg')",
-        'book-4': "url('src/components/Assets/Author/bookbg4.jpg')",
+        'book-1': "url('src/components/Assets/Author/Book/bg-1.jpg')",
+        'book-2': "url('src/components/Assets/Author/Book/bg-4.jpg')",
+        'book-3': "url('src/components/Assets/Author/Book/bg-2.jpg')",
+        'book-4': "url('src/components/Assets/Author/Book/bg-3.jpg')",
       }
     }
   },

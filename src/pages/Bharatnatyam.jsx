@@ -11,8 +11,8 @@ const Bharatnatyam = () => {
           <h1 className='text-left lg:text-[60px] md:text-[60px] text-[50px] leading-[65px] font-[400] font-display capitalize text-secondary '>Trained <br /> Bharatnatyam Dancer</h1>
         </div>
       </div>
-      <div className='flex justify-center self-start lg:min-h-[250px] mt-4 lg:mt-0 items-center gap-10 lg:flex-row flex-col w-[600px] px-8'>
-        <div className=' lg:w-[1280px] md:w-[700px] w-[600px] px-[5px]'>
+      <div className='flex justify-center lg:self-start lg:min-h-[250px] mt-4 lg:mt-0 items-center gap-10 lg:flex-row flex-col lg:w-[600px] w-full px-8'>
+        <div className=' lg:w-[1280px] w-full px-[5px]'>
           <p>Trained in Bharatanatyam through 8+ years of relentless dedication and attained an esteemed degree, attesting to the depth of knowledge and expertise in this classical dance form.
           </p>
           <div>
@@ -24,11 +24,11 @@ const Bharatnatyam = () => {
             </button>
           </div>
         </div>
-        <div className=' flex justify-center lg:absolute lg:top-[0px] lg:right-0 rounded-md md:translate-x-12 lg:translate-x-0 h-[510px] w-[400px]'>
+        <div className=' flex justify-center items-center lg:absolute lg:top-[0px] lg:right-0 rounded-md lg:translate-x-0 h-[510px] w-[400px]'>
           <DanceSlider />
         </div>
       </div>
-      <div className='w-full flex justify-center min-h-[300px] lg:mt-0  lg:items-start items-center gap-5 lg:flex-row flex-col mb-10 mt-[300px] pt-[60px] px-4'>
+      <div className='w-full flex justify-center min-h-[300px] lg:mt-0  lg:items-start items-center gap-5 lg:flex-row flex-col mb-10 md:mt-[50px] mt-[200px] pt-[60px] px-4'>
         <YoutubePlayer url='https://www.youtube.com/embed/B4jhcQb8WmE?si=2x-jpT4VBEdOuyaE' para='Performed thrice in front of audiences of over 4 lakh spectators on the momentous occasions of Indian festival Dussehra, making a debut at 10 years.
 ' />
         <YoutubePlayer url='https://www.youtube.com/embed/pCq7IgrSRtY?si=7B_oA5WB9aEQbJmw' para='

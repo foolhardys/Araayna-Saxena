@@ -6,7 +6,7 @@ const Competetions = () => {
     return (
         <article className='lg:w-[1280px] lg:p-4 p-8 w-full flex flex-col justify-center mb-40 '>
             <h1 className='font-display text-[56px] md:text-[56px] font-[400] text-secondary mb-[40px] text-left'>Competitions</h1>
-            <div className='flex lg:flex-row flex-col lg:justify-start justify-between gap-5 h-[900px] md:h-auto'>
+            <div className='flex lg:flex-row flex-col lg:justify-start justify-between gap-5 min-h-[900px] md:h-auto'>
                 <article className='rounded-md md:w-[500px] md:h-[640px] w-[350px] h-[300px]'>
                     <a href="https://drive.google.com/file/d/1toIHgEI2yJUNJByaYE7-SPhBcKHWhFr4/view?usp=drive_link" target='_blank' rel="noreferrer">
                         <img src={One} alt="8th science festival" className='md:w-[500px] md:h-[420px] w-[350px] h-[300px] shadow-md' />
@@ -21,12 +21,10 @@ const Competetions = () => {
                     <p className='bg-purple/50 font-raleway text-[16px] font-[400] p-4 relative -z-10 lg:-translate-y-3'>
                         Presented and Won 1st prize at School-level AI and ML projects including, Facial Emotions Recognizer, Quench The Thirst: A game with a bigger purpose, MudraMitrita at the <strong>10th Vigyan Mela</strong>  2023, organized by Madhya Pradesh Council of Science & Technology (MPCST) and attended by Senior ISRO Scientist Dr. P. Kunhikrishnan
                     </p>
-                    <div className='bg-purple/50 rounded-b-md font-raleway text-[16px] font-[400] p-4 relative lg:-translate-y-3'>
-                        <button className='bg-white hover:bg-purple text-dark-gray hover:text-white p-2 rounded-md'>
-                            <a href=" https://youtube.com/shorts/eaEgQhpXyr0?si=2liFuEchraeSfcvk" target='_blank'>
-                                Have a look
-                            </a>
-                        </button>
+                    <div  className='bg-purple/50 rounded-b-md font-raleway text-[16px] font-[400] px-4 py-6 relative lg:-translate-y-3 '>
+                        <a href=" https://youtube.com/shorts/eaEgQhpXyr0?si=2liFuEchraeSfcvk" target='_blank' rel='noreferrer' className='bg-white hover:bg-purple text-dark-gray hover:text-white py-3 px-8 rounded-md'>
+                           Have a look
+                        </a>
                     </div>
                 </article>
             </div>

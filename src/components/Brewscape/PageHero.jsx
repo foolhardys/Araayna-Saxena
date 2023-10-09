@@ -7,8 +7,8 @@ const PageHero = () => {
     return (
         <section className='flex flex-col gap-10 w-full rounded-md items-center'>
             <h1 className='font-display text-[56px] font-[400] ml-[100px] self-start'>Brewscape</h1>
-            <div className='py-4 px-14 flex md:flex-row flex-col relative gap-4 w-[1280px]'>
-                <div className='w-1/2 p-4'>
+            <div className='py-4 px-14 flex lg:flex-row flex-col relative gap-4 lg:w-[1280px] w-full'>
+                <div className='lg:w-1/2 w-full p-4'>
                     <p className='font-quicksand font-[400] text-[18px] text-gray '>I decided to start my initiative : <strong className='font-[800] text-dark-gray'>“Brewscape: A Coffee <br /> Adventure”</strong> to share my passion for Coffee, which <br />developed close to my heart right since I was a kid, <br /> from trying out my dad’s signature coffee after he’d <br /> return tired from work late at night to trying to <br /> authentic blends at placed I’d travel to. <br /> <br />
                         At Brewscape we:  <br />
                         &nbsp;&nbsp;&nbsp;1. <strong className='font-[800] text-dark-gray'>Research and recommend </strong>local cafes across India <br />&nbsp;&nbsp;&nbsp; which sell the most authentic varieties of coffees <br />&nbsp;&nbsp;&nbsp;, providing insights into the <strong className='font-[800] text-dark-gray'>passion and creativity</strong><br />&nbsp;&nbsp;&nbsp; that goes behind it right from its <br />&nbsp;&nbsp;&nbsp; <strong className='font-[800] text-dark-gray'>harvesting to its delectable recipes</strong>.
@@ -22,7 +22,7 @@ const PageHero = () => {
                         <a href="" className='font-quicksand text-[18px] font-[700]'> Visit Website</a>
                     </button>
                 </div>
-                <div className='w-1/2 flex flex-col justify-between items-center p-4'>
+                <div className='lg:w-1/2 w-full flex flex-col justify-between items-center lg:p-4 p-0'>
                     <img src={Pic1} alt="Araayna" className='h-[340px]' />
                     <p className='text-[16px] font-[400] font-roboto my-1'>Melbourne , 2014 </p>
                     <video width="320" height="340" controls className='h-[340px] w-[500px] shadow-md rounded-md'>

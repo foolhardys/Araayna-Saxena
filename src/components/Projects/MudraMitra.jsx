@@ -20,11 +20,11 @@ const MudraMitra = () => {
       {showCard && <div className='bg-bg-purple z-10 md:w-[720px] w-full flex gap-4 justify-between items-center absolute top-0 left-0 p-6 rounded-md' onClick={() => setShowCard(false)} onMouseLeave={() => setShowCard(false)}>
         <div className='w-4/6'>
           <h1 className='font-quicksand font-[700] text-[20px] text-white mb-4'>MudraMitrita : Bridging Bharatnatyam and ML:</h1>
-          <p className='font-quicksand font-[400] text-[18px] text-white mb-4'>
+          <p className='font-quicksand font-[400] text-[18px] text-white mb-8'>
             "MudraMitra" is an innovative Bharatanatyam AI project that revolutionizes the learning of this ancient Indian dance form. Through advanced AI technology, it identifies intricate hand gestures known as "mudras" and provides students with their significance and meanings in real-time to benefit students and enthusiasts alike. <br /> <br />
             Shared with notable Bharatnatyam academies, with thousands of users.
           </p>
-          <button className='bg-purple hover:bg-lightpurple text-white hover:text-dark-gray p-4 rounded-md font-quicksand font-[700] text-[18px] w-[200px]'>Project Report</button>
+          <a href='' target='_blank' rel='noreferrer' className='bg-purple hover:bg-lightpurple text-white hover:text-dark-gray py-4 px-8 rounded-md font-quicksand font-[700] text-[18px] w-[200px]'>Project Report</a>
         </div>
         <div className='w-2/6'>
           <img src={Two} alt="Funfilters" className='h-[200px] md:block hidden' />

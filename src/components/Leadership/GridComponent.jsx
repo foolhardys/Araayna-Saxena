@@ -32,7 +32,7 @@ const GridComponent = ({ griditem, isSelected, onClick, onMouseLeave }) => {
                         </p>
                     }
                     {
-                        pictures && <div className='flex gap-4 md:flex-row flex-col h-[130px] w-[200px]'>
+                        pictures && <div className='flex gap-4 md:flex-row flex-col min-h-[130px] w-[200px]'>
                             <img src={pictures[0].img} alt="" />
                             <img src={pictures[1].img} alt="" />
                         </div>

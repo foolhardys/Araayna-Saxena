@@ -181,7 +181,7 @@ const PageGrid = () => {
             <p className='text-left text-[18px] mt-[20px] lg:ml-0 md:ml-2 text-gray font-quicksand font-[400] mb-[40px] self-start'>
                 As the School Vice-Captain of Billabong High International School I have spearheaded and hosted countless school events and assemblies, led a team of 17 council members and student volunteers, kickstarted initiatives from impactful workshops and competitions to implementation of survey results.
             </p>
-            <article className='md:min-w-[600px] grid gap-x-[80px] gap-y-[20px] md:grid-cols-3 md:grid-rows-3 grid-cols-1 grid-rows-9 w-full  p-4 relative'>
+            <article className='md:min-w-[600px] grid gap-x-[80px] gap-y-[20px] lg:grid-cols-3 lg:grid-rows-3 grid-cols-1 grid-rows-9 w-full  p-4 relative'>
                 {griditems.map((griditem, index) => {
                     return <GridComponent
                         key={index}

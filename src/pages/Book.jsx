@@ -81,7 +81,7 @@ const Book = () => {
             </p>
           </div>
         </article>
-        <article className='bg-book-1 bg-center bg-cover w-full min-h-[80vh] ml-[10px] md:ml-0 flex lg:justify-start justify-center mt-[200px] lg:p-0 p-5'>
+        <article className='bg-book-1 bg-center bg-cover w-full min-h-[80vh] ml-[10px] md:ml-0 flex lg:justify-start justify-center mt-[50px] lg:p-0 p-5'>
           <div className='lg:w-[600px] w-full flex flex-col lg:ml-[180px] ml-0' >
             <h1 className='text-[40px] font-display font-[500] leading-[50px] mb-4'>Discover the captivating world of poetic expression with my latest collection of poetry.</h1>
             <p className='text-[24px] pr-10'>
@@ -97,7 +97,7 @@ const Book = () => {
             </div>
           </div>
         </article>
-        <article className='bg-book-2 bg-center bg-cover w-full min-h-[80vh] ml-[10px] md:ml-0 flex lg:flex-row flex-col lg:justify-start justify-center mt-[200px] lg:p-0 p-5'>
+        <article className='bg-book-2 bg-center bg-cover w-full min-h-[80vh] ml-[10px] md:ml-0 flex lg:flex-row flex-col lg:justify-start justify-center mt-[50px] lg:p-0 p-5'>
           <div className='lg:w-2/3 w-full flex flex-col lg:px-[50px] px-0 py-[70px]' >
             <p className='text-[24px] lg:pr-10 pr-0 w-full'>
               Club Literati’ in Collaboration with ‘Uthaan Foundation’, Bhopal Organised a Book Launch Ceremony for Arayna’s book. Arayna was felicitated by Hon’ble Mr Mangubhai C Patel, Governor of M.P. ; Hon’ble Mr Vishwas Sarang, Minister of Medical Education (M.P.); Shri Manoj Srivastava, Retd. Senior IAS Officer and author to about 36 books and many such prominent personalities in the field of literature and journalism at Minto Hall, Bhopal on 10th October 2021. <br /><br />
@@ -109,14 +109,14 @@ const Book = () => {
             <img src={Two} alt="" className='absolute bottom-0 right-0' />
           </div>
         </article>
-        <article className='bg-book-4 bg-center bg-cover w-full min-h-[80vh] ml-[10px] md:ml-0 flex lg:flex-row flex-col lg:justify-start justify-center mt-[200px] lg:p-0 p-5'>
+        <article className='bg-book-4 bg-center bg-cover w-full min-h-[80vh] ml-[10px] md:ml-0 flex lg:flex-row flex-col lg:justify-start justify-center mt-[50px] lg:p-0 p-5'>
           <div className='w-full flex flex-col lg:px-[50px] px-0 py-[70px] justify-center items-center' >
             <h1 className='text-courier text-[100px] text-center leading-[95px]'>Get a Glimpse of <br />
               the magic this <br />
               book holds</h1>
           </div>
         </article>
-        <article className='w-full min-h-[80vh] ml-[10px] md:ml-0 flex items-center justify-center  mt-[200px] lg:p-0 p-5'>
+        <article className='w-full min-h-[80vh] ml-[10px] md:ml-0 flex items-center justify-center  mt-[50px] lg:p-0 p-5'>
           <Grid />
         </article>
         <article className='w-full min-h-[80vh] ml-[10px] md:ml-0 grid lg:grid-cols-2 lg:grid-rows-3 grid-cols-1 grid-rows-6 mt-[20px] lg:p-0 p-5'>

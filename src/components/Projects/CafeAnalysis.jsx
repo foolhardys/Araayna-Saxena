@@ -20,7 +20,7 @@ const CafeAnalysis = () => {
       {showCard && <div className='bg-bg-purple z-10 md:w-[720px] w-full flex gap-4 justify-between items-center absolute top-0 left-0 p-6 rounded-md' onClick={() => setShowCard(false)} onMouseLeave={() => setShowCard(false)}>
         <div className='w-4/6'>
           <h1 className='font-quicksand font-[700] text-[20px] text-white mb-4'>ML & AI -Powered Performance Assessment :</h1>
-          <p className='font-quicksand font-[400] text-[18px] text-white mb-4'>
+          <p className='font-quicksand font-[400] text-[18px] text-white mb-8'>
           • Worked at “Cafe Coffee Day” and leveraged Machine Learning to evaluate the cafe’s performance post losses due to COVID-19. <br />
 
           • Data Analysis and Visualization: Collected customer feedback using detailed surveys, QR codes and online reviews, trained a sentiment analysis model, and generated visual insights. <br /><br />
@@ -30,7 +30,7 @@ const CafeAnalysis = () => {
 
 
           </p>
-          <button className='bg-purple hover:bg-lightpurple text-white hover:text-dark-gray p-4 rounded-md font-quicksand font-[700] text-[18px] w-[200px]'> <a href="https://drive.google.com/file/d/1fMXXmbMdR5nrp9R5H1GrWSiNMUxJuBnR/view?usp=share_link" target='_blank' rel="noreferrer">Project</a></button>
+          <a className='bg-purple hover:bg-lightpurple text-white hover:text-dark-gray py-4 px-8 rounded-md font-quicksand font-[700] text-[18px] w-[200px]' href="https://drive.google.com/file/d/1fMXXmbMdR5nrp9R5H1GrWSiNMUxJuBnR/view?usp=share_link" target='_blank' rel="noreferrer">Project</a>
         </div>
         <div className='w-2/6'>
           <img src={Four} alt="Funfilters" className='h-[200px] md:block hidden' />

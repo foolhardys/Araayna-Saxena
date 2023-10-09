@@ -13,7 +13,7 @@ const Billabong = () => {
                 Billabong Bulletin
             </h2>
             <img src={One} alt='' className='absolute top-0 left-0 w-full h-full' />
-            {showBox && <div className='bg-bg-purple p-[50px] lg:w-[800px] md:w-[700px] w-[400px] absolute top-0 lg:left-0 z-10 gap-5 flex md:flex-row flex-col' onMouseLeave={()=> setShowBox(false)}>
+            {showBox && <div className='bg-bg-purple p-[50px] lg:w-[800px] md:w-[700px] w-[400px] absolute top-0 md:left-0 z-10 gap-5 flex md:flex-row flex-col' onMouseLeave={()=> setShowBox(false)}>
                 <div className='md:w-3/5 w-full'>
                     <h1 className='text-[18px] font-[700] font-quicksand capitalize mb-8 text-left text-white'>Billabong Bulletin</h1>
                     <p className='text-[16px]  font-[400]  text-white font-quicksand mb-4'>Curated 5 issues of The Billabong Bulletin- A quarterly School Newsletter with the Editorial Board. <br /><br />
@@ -35,7 +35,7 @@ const Billabong = () => {
                         <img src={img} alt="" className='rounded-xl' />
                         <p className='text-white px-4 font-quicksand font-[600] text-[12px]'>Link to more Publications :</p>
                     </div>
-                    <div className='gap-2 p-2 bg-purple/80 rounded-md -translate-y-[100px]'>
+                    <div className='gap-2 p-2 bg-purple/80 rounded-md md:-translate-y-[150px] lg:-translate-y-[100px] translate-y-0'>
                         <p className='overflow-hidden'>
                             <a href="https://www.billabonghighbhopal.com/pdf/newsletter-july-2020.pdf" className='mr-2 underline text-white hover:text-dark-gray font-roboto font-[100] '>July,2020</a>   
                             <a href="https://www.billabonghighbhopal.com/pdf/newsletter-oct-2020.pdf" className='mr-2 underline text-white hover:text-dark-gray font-roboto font-[100] '>October,2020</a>

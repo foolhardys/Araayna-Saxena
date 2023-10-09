@@ -20,19 +20,19 @@ const FunFilters = () => {
       {showCard && <div className='bg-bg-purple z-10 md:w-[720px] w-full flex gap-4 justify-between items-center absolute top-0 left-0 p-6 rounded-md' onClick={() => setShowCard(false)} onMouseLeave={() => setShowCard(false)}>
         <div className='w-4/6'>
           <h1 className='font-quicksand font-[700] text-[20px] text-white mb-4'>FunFilters using Facial Recognition: </h1>
-          <p className='font-quicksand font-[400] text-[18px] text-white mb-4'>
+          <p className='font-quicksand font-[400] text-[18px] text-white mb-8'>
             FunFilters is a dynamic project aimed at providing users with a captivating platform to elevate their photos and videos using a wide array of customizable face filters, stickers, effects, and animations. <br /> <br />
             Features include Face Filters with Face Recognition, Live Webcam                          Snapshots, Video Recording, Canvas Borders and Frames, Image Editing. It empowers users to transform their visual content into captivating and shareable works of art.
             Best Used with HP or Windows as layout might vary with IOS
 
           </p>
-          <button className='bg-purple hover:bg-lightpurple text-white hover:text-dark-gray p-4 rounded-md font-quicksand font-[700] text-[18px] w-[200px] mt-[30px]'><a href="https://araynasaxena.github.io/FunFilters-Using-Facial-Recognition/" target='_blank' rel='noreferrer'>Check it out!</a></button>
+          <a href="https://araynasaxena.github.io/FunFilters-Using-Facial-Recognition/" target='_blank' rel='noreferrer' className='bg-purple hover:bg-lightpurple text-white hover:text-dark-gray py-4 px-8 rounded-md font-quicksand font-[700] text-[18px] w-[200px] mt-[30px]'>Check it out!</a>
         </div>
         <div className='w-2/6 self-start' >
           <img src={One} alt="Funfilters" className='h-[300px] md:block hidden' />
         </div>
       </div>}
-    </article>
+    </article >
   )
 }
 

@@ -20,10 +20,10 @@ const Author = () => {
     <section className='min-h-screen flex flex-col items-center'>
       <PageHero />
       <section>
-        <div className="bg-bg-1 bg-cover w-[full] items-center overflow-x-hidden h-[100vh] md:block flex flex-col justify-center">
-          <p className=" md:text-[60px] text-[80px] max-w-[30vw] md:ml-[5vw] -ml-[200px] mt-[35vh] md:text-center text-justify leading-[10vh]">The Author's Journey</p>
+        <div className="bg-bg-1 bg-cover w-[full] items-center overflow-x-hidden min-h-[80vh] lg:block flex flex-col justify-center">
+          <p className=" lg:text-[60px] text-[80px] max-w-[30vw] lg:ml-[5vw] md:ml-0 -ml-[200px] lg:mt-[35vh] md:mt-[15vh] md:text-center text-justify leading-[10vh]">The Author's Journey</p>
           <p className="font-courier md:text-[30px] text-[50px] md:mb-5 mb-0 max-w-[30vw] md:ml-[5vw] -ml-[200px] md:text-center text-justify text-light-blue ">Arayna Saxena</p>
-          <Link to='/book' className='mx-auto lg:ml-[13.5vw] md:ml-[10vw] ml-10 p-4 rounded-md transition bg-purple text-[18px] font-quicksand hover:bg-lightpurple hover:text-dark-gray text-white font-[700]'>About the book</Link>
+          <Link to='/book' className='mx-auto lg:ml-[13.5vw] md:mx-auto ml-10 lg:p-4 p-2 md:px-6 md:py-4  rounded-md transition bg-purple text-[18px] font-quicksand hover:bg-lightpurple hover:text-dark-gray text-white font-[700]'>About the book</Link>
         </div>
         <div className=" h-auto bg-bg-2 bg-cover w-full items-center overflow-x-hidden">
           <div>
@@ -72,7 +72,7 @@ const Author = () => {
             </div>
           </div>
         </div>
-        <div className=" h-auto bg-bg-3 bg-cover w-full items-center overflow-x-hidden">
+        <div className=" h-auto bg-bg-4 bg-cover w-full items-center overflow-x-hidden">
           <div>
             <div className="flex lg:flex-row flex-col">
               <div className="w-full flex-1 relative pt-[5em]" >

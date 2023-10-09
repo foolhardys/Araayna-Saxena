@@ -31,8 +31,8 @@ const Piano = () => {
 ' />
         <YoutubePlayer url='https://www.youtube.com/embed/anIweHoQz4k' para='Piano Cover of Minuet by Alexander Reinagle 🤍 #Shorts #Piano #trinitypiano
 ' />
-        <div className='flex flex-col gap-3 bg-div-bg rounded-md px-1 pb-3'>
-          <video width="320" height="340" controls className='h-[220px] w-[3900px] shadow-md rounded-md'>
+        <div className='flex flex-col gap-3 bg-div-bg rounded-md px-1 pb-3 w-[390px]'>
+          <video width="320" height="340" controls className='h-[220px] w-full shadow-md rounded-md'>
             <source src={Video} type="video/mp4" />
           </video>
           <p>"Unlocking musical harmony at school 🎹🎶 #PianoPassion #SchoolTunes #MusicEducation"</p>

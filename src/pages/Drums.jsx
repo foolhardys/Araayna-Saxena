@@ -9,7 +9,7 @@ const Drums = () => {
           <h1 className='lg:text-left text-center lg:text-[70px] md:text-[60px] text-[50px] font-[400] font-display capitalize text-secondary '> Drummer - Rock and Roll</h1>
         </div>
       </div>
-      <div className='flex lg:flex-row flex-col w-[1280px] mt-[30px]' >
+      <div className='flex lg:flex-row flex-col lg:w-[1280px] w-full mt-[30px]' >
         <div className=' flex justify-center lg:min-h-[250px] items-start lg:flex-row flex-col flex-2'>
           <div className='flex-1 px-20'>
             <p className='font-quicksand font-[400] text-[18px]'>
@@ -20,7 +20,7 @@ const Drums = () => {
             </button>
           </div>
         </div>
-        <div className='w-full flex justify-start px-[100px] min-h-[300px] lg:items-start items-center gap-5 lg:flex-row flex-col mb-10  flex-1'>
+        <div className='w-full flex justify-start px-[100px] lg:mt-0 mt-4 min-h-[300px] lg:items-start items-center gap-5 lg:flex-row flex-col mb-10  flex-1'>
           <YoutubePlayer url='https://www.youtube.com/embed/JQPCTIQ_Qc0?si=IQoC4zuD1-hfYUCh' para='KNOCK ON WOOD, Eddie Floyd- Trinity Rock & Pop Drums Grade 2
 ' />
         </div>

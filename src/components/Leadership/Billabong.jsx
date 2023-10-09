@@ -37,12 +37,12 @@ const Billabong = () => {
                     </div>
                     <div className='gap-2 p-2 bg-purple/80 rounded-md md:-translate-y-[150px] lg:-translate-y-[100px] translate-y-0'>
                         <p className='overflow-hidden'>
-                            <a href="https://www.billabonghighbhopal.com/pdf/newsletter-july-2020.pdf" className='mr-2 underline text-white hover:text-dark-gray font-roboto font-[100] '>July,2020</a>   
-                            <a href="https://www.billabonghighbhopal.com/pdf/newsletter-oct-2020.pdf" className='mr-2 underline text-white hover:text-dark-gray font-roboto font-[100] '>October,2020</a>
-                            <a href="https://www.billabonghighbhopal.com/pdf/newsletter-jan-2021.pdf" className='mr-2 underline text-white hover:text-dark-gray font-roboto font-[100] '>January,2021</a>
+                            <a href="https://www.billabonghighbhopal.com/pdf/newsletter-july-2020.pdf" target='_blank' rel="noopener noreferrer" className='mr-2 underline text-white hover:text-dark-gray font-roboto font-[100] '>July,2020</a>   
+                            <a href="https://www.billabonghighbhopal.com/pdf/newsletter-oct-2020.pdf" target='_blank' rel="noopener noreferrer" className='mr-2 underline text-white hover:text-dark-gray font-roboto font-[100] '>October,2020</a>
+                            <a href="https://www.billabonghighbhopal.com/pdf/newsletter-jan-2021.pdf" target='_blank' rel="noopener noreferrer" className='mr-2 underline text-white hover:text-dark-gray font-roboto font-[100] '>January,2021</a>
                             <br />
-                            <a href="https://www.billabonghighbhopal.com/pdf/newsletter-april-2021.pdf" className='mr-2 underline text-white hover:text-dark-gray font-roboto font-[100] '>April,2021</a>
-                            <a href="https://www.billabonghighbhopal.com/pdf/newsletter-july-2021.pdf" className='mr-2 underline text-white hover:text-dark-gray font-roboto font-[100] '>July,2021</a>
+                            <a href="https://www.billabonghighbhopal.com/pdf/newsletter-april-2021.pdf" target='_blank' rel="noopener noreferrer" className='mr-2 underline text-white hover:text-dark-gray font-roboto font-[100] '>April,2021</a>
+                            <a href="https://www.billabonghighbhopal.com/pdf/newsletter-july-2021.pdf" target='_blank' rel="noopener noreferrer" className='mr-2 underline text-white hover:text-dark-gray font-roboto font-[100] '>July,2021</a>
                         </p>
                     </div>
                 </div>

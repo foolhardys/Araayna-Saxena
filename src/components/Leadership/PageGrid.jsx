@@ -27,7 +27,7 @@ let griditems = [
         boxcontent: "",
         button: true,
         buttontitle: 'Take a look',
-        buttonlink:'',
+        buttonlink:'https://www.instagram.com/p/Cj2cOLyO0yp/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==',
         box: false,
     },
     {

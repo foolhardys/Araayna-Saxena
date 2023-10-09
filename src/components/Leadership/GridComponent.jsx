@@ -18,7 +18,7 @@ const GridComponent = ({ griditem, isSelected, onClick, onMouseLeave }) => {
                             &nbsp;  •&nbsp;Collaborated with the schools Tech Head to create 'Good & Bad Touch' animation videos for Primary &nbsp;&nbsp;school students <br />
                             &nbsp;  •&nbsp;Extended educational efforts to over 2000 underprivileged children through NGO: Uthaan.<br />
                             &nbsp;  •&nbsp;Developed English and Hindi tests with the Editorial Board to &nbsp;&nbsp;understand the acts in context of &nbsp;&nbsp;real-world scenarios, achieving a &nbsp;&nbsp;95% success rate in test results.<br /><br />
-                            Links: <a href="https://www.instagram.com/p/Cob830Bsaup/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==" target='_blank' rel="noreferrer" className='font-quicksand font-[400] text-[18px] text-purple underline '>Post1</a>, <a href="https://www.instagram.com/p/CtqDW2fIBNq/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==" target='_blank' rel="noreferrer" className='font-quicksand font-[400] text-[18px] text-purple underline '>Post2</a>, <a href="https://www.instagram.com/p/Cj2cOLyO0yp/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==" target="_blank" rel="noopener noreferrer" className='font-quicksand font-[400] text-[18px] text-purple underline '>Post3</a>
+                            Links: <a href="https://www.instagram.com/p/Cob830Bsaup/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==" target='_blank' rel="noreferrer" className='font-quicksand font-[400] text-[18px] text-purple underline '>Post1</a>, <a href="https://www.instagram.com/p/CtqDW2fIBNq/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==" target='_blank' rel="noreferrer" className='font-quicksand font-[400] text-[18px] text-purple underline '>Post2</a>
                         </p>
                     }
                     {
@@ -39,18 +39,16 @@ const GridComponent = ({ griditem, isSelected, onClick, onMouseLeave }) => {
                     }
                     {
                         links && <div className='my-4'>
-                           <a href={links[0].url} target="_blank" rel="noopener noreferrer" className='font-quicksand font-[400] text-[18px] text-purple underline '>School vice-captain speech</a>,&nbsp;
-                           <a href={links[1].url} target="_blank" rel="noopener noreferrer" className='font-quicksand font-[400] text-[18px] text-purple underline '>Republic day hosting</a>,&nbsp;
-                           <a href={links[2].url} target="_blank" rel="noopener noreferrer" className='font-quicksand font-[400] text-[18px] text-purple underline '>Teacher's day hosting</a>,&nbsp;
-                           <a href={links[3].url} target="_blank" rel="noopener noreferrer" className='font-quicksand font-[400] text-[18px] text-purple underline '>Assembly hosting</a>
+                            <a href={links[0].url} target="_blank" rel="noopener noreferrer" className='font-quicksand font-[400] text-[18px] text-purple underline '>School vice-captain speech</a>,&nbsp;
+                            <a href={links[1].url} target="_blank" rel="noopener noreferrer" className='font-quicksand font-[400] text-[18px] text-purple underline '>Republic day hosting</a>,&nbsp;
+                            <a href={links[2].url} target="_blank" rel="noopener noreferrer" className='font-quicksand font-[400] text-[18px] text-purple underline '>Teacher's day hosting</a>,&nbsp;
+                            <a href={links[3].url} target="_blank" rel="noopener noreferrer" className='font-quicksand font-[400] text-[18px] text-purple underline '>Assembly hosting</a>
                         </div>
                     }
                     {button &&
-                        <button className='w-[230px] bg-purple p-2 capitalize hover:bg-lightpurple hover:text-dark-gray rounded-md text-white my-[15px]'>
-                            <a href={buttonlink} target='_blank' rel="noopener noreferrer" >
-                                {buttontitle}
-                            </a>
-                        </button>
+                        <a href={buttonlink} target='_blank' rel="noopener noreferrer" className='w-[230px] bg-purple py-4 px-8 capitalize hover:bg-lightpurple hover:text-dark-gray rounded-md text-white my-[15px]'>
+                            {buttontitle}
+                        </a>
                     }
                 </div>
             ) : (

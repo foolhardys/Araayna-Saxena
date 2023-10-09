@@ -9,8 +9,6 @@ const LiteraryPrefect = () => {
             <p className='text-left text-[18px] mt-[20px] lg:ml-0 md:ml-2 text-gray font-quicksand font-[400] mb-[40px] self-start'>
                 Managed Middle-school literary events, including assemblies, school functions and workshops
                 Revamped the english literature curriculum and boosted students’ interests by formulating sheets with philosophical and open ended questions for class discussions.
-                Check drive pics for pic and certificate:
-
             </p>
         </article>
     )

@@ -13,7 +13,7 @@ const griditems = [
         id: 2,
         title: 'Book: Amidst The Downpour',
         img: '',
-        url: 'author/book'
+        url: 'book'
     },
     {
         id: 3,
@@ -37,19 +37,19 @@ const griditems = [
         id: 6,
         title: 'Websites',
         img: '',
-        url: ''
+        url: 'projects'
     },
     {
         id: 7,
         title: 'My Author’s Journey',
         img: '',
-        url: 'author/authorabout'
+        url: 'author'
     },
     {
         id: 8,
         title: '8 years journey with Bharatnatyam',
         img: '',
-        url: 'extracurricular'
+        url: 'extracurricular/bharatnatyam'
     },
     {
         id: 9,

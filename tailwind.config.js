@@ -44,6 +44,7 @@ export default {
       roboto: ['Roboto', 'sans-serif'],
       courier: ['Courier Prime', 'monospace'],
       dancing: ['Dancing Script', 'cursive'],
+      playfair: ['Playfair Display', 'serif'],
     },
     extend: {
       backgroundImage: {
@@ -51,7 +52,7 @@ export default {
         'bg-2': "url(src/pages/svgs/story_page_1.png)",
         'bg-3': "url(src/pages/svgs/story_page_2.png)",
         'bg-4': "url(src/pages/svgs/story_page_3.png)",
-        'bg-contact': "url(src/components/Assets/Author/Contact/one.png)",
+        'bg-contact': "url(src/components/Assets/Author/Contact/one.jpeg)",
         'book-3': "url(src/components/Assets/Author/bookbg1.jpg)",
         'book-1': "url('src/components/Assets/Author/bookbg2.png')",
         'book-2': "url('src/components/Assets/Author/bookbg3.jpg')",

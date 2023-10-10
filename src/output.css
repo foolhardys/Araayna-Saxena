@@ -1508,6 +1508,10 @@ video {
   background-image: url(src/components/Assets/Author/Contact/one.jpeg);
 }
 
+.bg-bg-contact{
+  background-image: url('src/components/Assets/Author/Contact/one.jpeg');
+}
+
 .bg-book-1{
   background-image: url('src/components/Assets/Author/bookbg2.png');
 }

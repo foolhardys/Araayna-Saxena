@@ -13,6 +13,7 @@ import Twelve from './svgs/story_page_3_cnt_col.jpg'
 import { Link } from 'react-router-dom'
 import PageHero from '../components/Author/PageHero'
 import Contact from '../components/Author/Contact'
+import './styles.css'
 
 
 const Author = () => {
@@ -21,7 +22,7 @@ const Author = () => {
       <PageHero />
       <section>
         <div className="bg-bg-1 bg-cover w-[full] items-center overflow-x-hidden min-h-[80vh] lg:block flex flex-col justify-center">
-          <p className=" lg:text-[60px] text-[80px] max-w-[30vw] lg:ml-[5vw] md:ml-0 -ml-[200px] lg:mt-[35vh] md:mt-[15vh] md:text-center text-justify leading-[10vh]">The Author's Journey</p>
+          <p className=" lg:text-[60px] text-[80px] max-w-[30vw] lg:ml-[5vw] md:ml-0 -ml-[200px] lg:mt-[25vh] md:mt-[15vh] md:text-center text-justify leading-[10vh]">The Author's Journey</p>
           <p className="font-courier md:text-[30px] text-[50px] md:mb-5 mb-0 max-w-[30vw] md:ml-[5vw] -ml-[200px] md:text-center text-justify text-light-blue ">Arayna Saxena</p>
           <Link to='/book' className='mx-auto lg:ml-[13.5vw] md:mx-auto ml-10 lg:p-4 p-2 md:px-6 md:py-4  rounded-md transition bg-purple text-[18px] font-quicksand hover:bg-lightpurple hover:text-dark-gray text-white font-[700]'>About the book</Link>
         </div>

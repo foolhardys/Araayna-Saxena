@@ -48,7 +48,7 @@ export default {
     },
     extend: {
       backgroundImage: {
-        'bg-1': "url(src/pages/svgs/bgggg.png)",
+        // 'bg-1': "url(src/pages/svgs/bgggg.png)",
         'bg-2': "url(src/pages/svgs/story_page_1.png)",
         'bg-3': "url(src/pages/svgs/story_page_2.png)",
         'bg-4': "url(src/pages/svgs/story_page_3.png)",

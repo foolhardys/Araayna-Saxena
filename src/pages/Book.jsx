@@ -10,6 +10,7 @@ import Four from '../components/Assets/Author/Components/2.png'
 import Five from '../components/Assets/Author/Components/3.png'
 import Six from '../components/Assets/Author/Components/4.png'
 import Seven from '../components/Assets/Author/Components/5.png'
+import './styles.css'
 
 
 const books = [
@@ -59,7 +60,7 @@ const Book = () => {
     <section className='min-h-screen flex flex-col items-center'>
       <PageHero />
       <section className='w-full flex flex-col items-center'>
-        <article className='bg-bg-contact bg-center bg-cover lg:w-[1280px] min-h-[80vh] ml-[10px] md:ml-0 lg:p-0 p-5'>
+        <article className='bg-bg-contact2 bg-center bg-cover lg:w-[1280px] min-h-[60vh] ml-[10px] md:ml-0 lg:p-0 p-5'>
           <h1 className='text-[25px] uppercase font-[300] text-secondary tracking-widest'>Revealing</h1>
           <h1 className='text-[70px] capitalize font-[700] text-secondary leading-[60px] mb-[20px] font-courier mt-[10px] '>Amidst the <br /> downpour</h1>
           <h3 className='text-[25px] uppercase font-[300] text-secondary mb-[20px] tracking-widest'>by arayna saxena</h3>
@@ -107,6 +108,12 @@ const Book = () => {
           <div className='lg:w-1/3 w-full flex flex-col relative justify-center items-center'>
             <img src={One} alt="" className='h-[480px] w-[400px]' />
             <img src={Two} alt="" className='absolute bottom-0 right-0' />
+          </div>
+        </article>
+        <article className='w-full min-h-[80vh] ml-[10px] md:ml-0 mt-[50px] p-5'>
+          <h1 className='text-center font-courier font-[500] text-[70px]'>Book trailer</h1>
+          <div className='w-full flex justify-center items-center p-8'>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/1Vy5hNwKXZE?si=euew_culT3TBb8yA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen className='h-[45vh] w-[600px]'></iframe>
           </div>
         </article>
         <article className='bg-book-4 bg-center bg-cover w-full min-h-[80vh] ml-[10px] md:ml-0 flex lg:flex-row flex-col lg:justify-start justify-center mt-[50px] lg:p-0 p-5'>

@@ -34,3 +34,39 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.bg-bg-contact2{
+    background: url('../components/Assets/Author/bookbg5.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-book-1{
+    background: url('../components/Assets/Author/bookbg2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.bg-book-3{
+    background: url('../components/Assets/Author/bookbg1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-book-2{
+    background: url('../components/Assets/Author/bookbg3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-book-4{
+    background: url('../components/Assets/Author/bookbg4.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

@@ -53,10 +53,10 @@ export default {
         // 'bg-3': "url(src/pages/svgs/story_page_2.png)",
         // 'bg-4': "url(src/pages/svgs/story_page_3.png)",
         // 'bg-contact': "url(src/components/Assets/Author/Contact/one.jpeg)",
-        'book-3': "url(src/components/Assets/Author/bookbg1.jpg)",
-        'book-1': "url('src/components/Assets/Author/bookbg2.png')",
-        'book-2': "url('src/components/Assets/Author/bookbg3.jpg')",
-        'book-4': "url('src/components/Assets/Author/bookbg4.jpg')",
+        // 'book-3': "url(src/components/Assets/Author/bookbg1.jpg)",
+        // 'book-1': "url('src/components/Assets/Author/bookbg2.png')",
+        // 'book-2': "url('src/components/Assets/Author/bookbg3.jpg')",
+        // 'book-4': "url('src/components/Assets/Author/bookbg4.jpg')",
       }
     }
   },

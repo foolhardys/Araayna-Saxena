@@ -12,9 +12,6 @@ const HomeArticle = () => {
                 Click below for my complete resume, or click through the tabs to find further details!
             </a>
             <br />
-            <button className='w-[142px] flex items-center gap-4 p-3 bg-purple rounded-sm shadow-md transition text-primary hover:bg-primary hover:text-secondary font-serif font-[700] text-[14px]  mt-4 -translate-y-10'>
-                Download CV <span><AiOutlineDown className='text-[16px]' /></span>
-            </button>
         </article>
     )
 }

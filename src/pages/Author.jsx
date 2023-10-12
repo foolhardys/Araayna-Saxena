@@ -21,12 +21,12 @@ const Author = () => {
     <section className='min-h-screen flex flex-col items-center'>
       <PageHero />
       <section>
-        <div className="bg-bg-1 bg-cover w-[full] items-center overflow-x-hidden min-h-[80vh] lg:block flex flex-col justify-center">
+        <div className="bg-bg-1 w-[full] items-center overflow-x-hidden min-h-[80vh] lg:block flex flex-col justify-center">
           <p className=" lg:text-[60px] text-[80px] max-w-[30vw] lg:ml-[5vw] md:ml-0 -ml-[200px] lg:mt-[25vh] md:mt-[15vh] md:text-center text-justify leading-[10vh]">The Author's Journey</p>
           <p className="font-courier md:text-[30px] text-[50px] md:mb-5 mb-0 max-w-[30vw] md:ml-[5vw] -ml-[200px] md:text-center text-justify text-light-blue ">Arayna Saxena</p>
           <Link to='/book' className='mx-auto lg:ml-[13.5vw] md:mx-auto ml-10 lg:p-4 p-2 md:px-6 md:py-4  rounded-md transition bg-purple text-[18px] font-quicksand hover:bg-lightpurple hover:text-dark-gray text-white font-[700]'>About the book</Link>
         </div>
-        <div className=" h-auto bg-bg-2 bg-cover w-full items-center overflow-x-hidden">
+        <div className=" h-auto bg-bg-2 w-full items-center overflow-x-hidden">
           <div>
             <div className="flex lg:flex-row flex-col">
               <div className="w-full flex-1 relative pt-[5em]" >
@@ -40,7 +40,7 @@ const Author = () => {
               </div>
               <div className='w-full flex-1 mt-[3vh] md:px-32 px-5 py-2'>
                 <div className="grid relative h-[35px]">
-                  <img src={Five} alt="" className='absolute left-[-125px]' />
+                  <img src={Five} alt="" className='absolute left-[-125px] top-[50px]' />
                 </div>
                 <h3 className='text-justify font-[400] text-[24px] mt-[2em] font-serif'>
                   I was 14 years old and in 10th grade when I wrote this book. Personally, I relish writing
@@ -57,7 +57,7 @@ const Author = () => {
                 </h3>
                 <div className="grid relative h-[35px]">
                   <img src={Three} alt="" className='absolute right-0' />
-                  <img src={Four} alt="" className=' absolute left-0 -translate-x-[30px] translate-y-[35px]' />
+                  <img src={Four} alt="" className=' absolute left-0 -translate-x-[30px] translate-y-[45px]' />
                 </div>
                 <h3 className='text-justify font-[400] text-[24px] mt-[1.3em] font-serif'>
                   Poetry is something I was naturally inclined to as a form of expression. In 4th grade, my
@@ -80,7 +80,7 @@ const Author = () => {
               </div>
               <div className='w-full flex-1 md:px-32 px-5 pb-[100px] pt-[20px]'>
                 <div className="grid relative">
-                  <img src={Six} alt="" className='absolute left-[-125px] h-[100px]' />
+                  <img src={Six} alt="" className='absolute left-[-125px] h-[100px] top-[40px]' />
                 </div>
                 <h3 className='text-justify font-[400] text-[24px] mt-[2em] font-serif'>
                   In her eyes was pride, and this had been eternally imprinted in my brain as the day that motivated me to discover my passions and work towards them to positively impact people around me and feel proud of myself. Later, the school converted my poem into a song which was sung at our annual function. This new experience encouraged me to continue exploring and learning.
@@ -109,7 +109,7 @@ const Author = () => {
               </div>
               <div className='w-full flex-1 md:px-32 px-5 pb-[100px] pt-[20px]'>
                 <div className="grid relative">
-                  <img src={Eleven} alt="" className='absolute left-[-80px] h-[80px]' />
+                  <img src={Eleven} alt="" className='absolute left-[-80px] h-[80px] top-[50px]' />
                 </div>
                 <h3 className='text-justify font-[400] text-[24px] mt-[2em] font-serif'>
                   Finally, "Amidst The Downpour" was ready as a downpour of my thoughts and emotions over paper. The honourable Governor of Madhya Pradesh agreed to inaugurate my book during the book launch, and people from different educational fields and careers attended it."

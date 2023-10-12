@@ -126,7 +126,7 @@ const Book = () => {
         <article className='w-full min-h-[80vh] ml-[10px] md:ml-0 flex items-center justify-center  mt-[50px] lg:p-0 p-5'>
           <Grid />
         </article>
-        <article className='w-full min-h-[80vh] ml-[10px] md:ml-0 grid lg:grid-cols-2 lg:grid-rows-3 grid-cols-1 grid-rows-6 mt-[20px] lg:p-0 p-5'>
+        <article className='lg:w-[1160px] w-full min-h-[80vh] ml-[10px] md:ml-0 grid lg:grid-cols-2 lg:grid-rows-3 grid-cols-1 grid-rows-6 mt-[20px] lg:p-0 p-5'>
           {books.map((book) => {
             const { id } = book
             return (<BookBox key={id} {...book} />)

@@ -34,9 +34,9 @@ const BookBox = ({ img, para, button, buttontitle, link, id }) => {
                             • &nbsp;    Devised a comprehensive report and mailed it to principals of 5 different  schools in Bhopal
                         </p>
                     }
-                    {button && <button className='bg-dark-purple p-2 text-[18px] font-quicksand font-[700] text-white hover:bg-lightpurple hover:text-dark-gray w-[150px] m-4 rounded-md transition'>
-                        <a href={link} target="_blank" rel="noopener noreferrer">{buttontitle}</a>
-                    </button>}
+                    {button && <a href={link} target="_blank" rel="noopener noreferrer" className='flex justify-center inline-block bg-dark-purple p-2 text-[18px] font-quicksand font-[700] text-white hover:bg-lightpurple hover:text-dark-gray w-[150px] m-4 rounded-md transition'>
+                        <button className='text-center'>{buttontitle}</button>
+                    </a>}
                     {
                         id === 5 && <div className='flex flex-col items-center justify-center'>
                             <BookSlider />

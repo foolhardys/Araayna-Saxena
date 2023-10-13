@@ -36,7 +36,7 @@ const TalentSlider = () => {
 
     return (
         <Swiper
-            spaceBetween={50} 
+            spaceBetween={50}
             pagination={true}
             modules={[Pagination]}
             breakpoints={{

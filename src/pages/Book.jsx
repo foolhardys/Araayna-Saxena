@@ -62,12 +62,12 @@ const Book = () => {
       <section className='w-full flex flex-col items-center'>
         <article className='bg-bg-contact2 bg-center bg-cover lg:w-[1280px] min-h-[60vh] ml-[10px] md:ml-0 lg:p-0 p-5'>
           <h1 className='text-[25px] uppercase font-[300] text-secondary tracking-widest'>Revealing</h1>
-          <h1 className='text-[70px] capitalize font-[700] text-secondary leading-[60px] mb-[20px] font-courier mt-[10px] '>Amidst the <br /> downpour</h1>
+          <h1 className='text-[70px] capitalize font-[300] text-secondary leading-[60px] mb-[20px] font-display mt-[10px] '>Amidst the <br /> downpour</h1>
           <h3 className='text-[25px] uppercase font-[300] text-secondary mb-[20px] tracking-widest'>by arayna saxena</h3>
           <div>
-            <button className='py-3 px-4 transition mr-[15px] rounded-md font-quicksand font-[700]  bg-purple hover:bg-lightpurple text-white hover:text-dark-gray'>
-              <a href="https://araynasaxena.com/" target="_blank" rel="noopener noreferrer"> Take a look</a>
-            </button>
+            <a href="https://araynasaxena.com/" target="_blank" rel="noopener noreferrer" className='inline-block py-3 px-4 transition mr-[15px] rounded-md font-quicksand font-[700]  bg-purple hover:bg-lightpurple text-white hover:text-dark-gray'>
+              <button> Take a look</button>
+            </a>
             <Link to='/author' className='py-3 px-4 transition mr-[15px] rounded-md font-quicksand font-[700] bg-purple hover:bg-lightpurple text-white hover:text-dark-gray'>
               Author's Journey
             </Link>
@@ -80,6 +80,12 @@ const Book = () => {
               <br /><br />
               The panoramic selection of themes in Arayna’s book — self-love, optimism, faith and morality — are thought-provoking and highly relevant. The book is a great balance of sentiments and individuality. The book comprises beautiful calligraphy titles, bookmark, a thank you letter, and illustrations highlighting the concepts of the poems.
             </p>
+          </div>
+        </article>
+        <article className='w-full min-h-[80vh] ml-[10px] md:ml-0 mt-[50px] p-5'>
+          <h1 className='text-center font-display font-[700] text-[70px]'>Book Trailer</h1>
+          <div className='w-full flex justify-center items-center p-8'>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/1Vy5hNwKXZE?si=euew_culT3TBb8yA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen className='h-[45vh] w-[600px]'></iframe>
           </div>
         </article>
         <article className='bg-book-1 bg-center bg-cover w-full min-h-[80vh] ml-[10px] md:ml-0 flex lg:justify-start justify-center mt-[50px] lg:p-0 p-5'>
@@ -110,12 +116,6 @@ const Book = () => {
             <img src={Two} alt="" className='absolute bottom-0 right-0' />
           </div>
         </article>
-        <article className='w-full min-h-[80vh] ml-[10px] md:ml-0 mt-[50px] p-5'>
-          <h1 className='text-center font-courier font-[500] text-[70px]'>Book trailer</h1>
-          <div className='w-full flex justify-center items-center p-8'>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/1Vy5hNwKXZE?si=euew_culT3TBb8yA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen className='h-[45vh] w-[600px]'></iframe>
-          </div>
-        </article>
         <article className='bg-book-4 bg-center bg-cover w-full min-h-[80vh] ml-[10px] md:ml-0 flex lg:flex-row flex-col lg:justify-start justify-center mt-[50px] lg:p-0 p-5'>
           <div className='w-full flex flex-col lg:px-[50px] px-0 py-[70px] justify-center items-center' >
             <h1 className='text-courier text-[100px] text-center leading-[95px]'>Get a Glimpse of <br />
@@ -126,7 +126,7 @@ const Book = () => {
         <article className='w-full min-h-[80vh] ml-[10px] md:ml-0 flex items-center justify-center  mt-[50px] lg:p-0 p-5'>
           <Grid />
         </article>
-        <article className='lg:w-[1160px] w-full min-h-[80vh] ml-[10px] md:ml-0 grid lg:grid-cols-2 lg:grid-rows-3 grid-cols-1 grid-rows-6 mt-[20px] lg:p-0 p-5'>
+        <article id='recognitions' className='lg:w-[1160px] w-full min-h-[80vh] ml-[10px] md:ml-0 grid lg:grid-cols-2 lg:grid-rows-3 grid-cols-1 grid-rows-6 mt-[20px] lg:p-0 p-5'>
           {books.map((book) => {
             const { id } = book
             return (<BookBox key={id} {...book} />)

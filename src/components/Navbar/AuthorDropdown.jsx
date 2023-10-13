@@ -10,8 +10,13 @@ const sublinks = [
     },
     {
         id: 2,
-        text: 'author',
+        text: 'the author',
         url: '/author'
+    },
+    {
+        id: 3,
+        text: 'Recognitions',
+        url: '/book'
     }
 ]
 

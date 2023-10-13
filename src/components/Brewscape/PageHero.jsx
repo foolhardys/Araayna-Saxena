@@ -18,9 +18,9 @@ const PageHero = () => {
                         &nbsp;&nbsp;&nbsp;3. <strong className='font-[800] text-dark-gray'>Build a Community of Caffeinated Adventurers</strong> <br />&nbsp;&nbsp;&nbsp;, taking suggestions and transforming shared sips <br />&nbsp;&nbsp;&nbsp; into lasting bonds.
                         <br />
                         &nbsp;&nbsp;&nbsp;4.<strong className='font-[800] text-dark-gray'>Embark</strong>  a flavourful  journey together, where <br />&nbsp;&nbsp;&nbsp; suggestions brew, and <strong className='font-[800] text-dark-gray'>connections flourish</strong> – one cup <br />&nbsp;&nbsp;&nbsp; at a time.</p>
-                    <button className='w-[230px] p-4 bg-purple text-white hover:bg-lightpurple hover:text-gray my-4 rounded-md'>
-                        <a href="" className='font-quicksand text-[18px] font-[700]'> Visit Website</a>
-                    </button>
+                    <a href='' target='_blank' rel='noreferrer' className='flex justify-center w-[230px] p-4 bg-purple text-white hover:bg-lightpurple hover:text-gray my-4 rounded-md'>
+                        <button  className='font-quicksand text-[18px] font-[700]'> Visit Website</button>
+                    </a>
                 </div>
                 <div className='lg:w-1/2 w-full flex flex-col justify-between items-center lg:p-4 p-0'>
                     <img src={Pic1} alt="Araayna" className='h-[340px]' />

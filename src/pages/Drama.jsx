@@ -13,9 +13,9 @@ const Drama = () => {
       <div className='w-full flex justify-center lg:min-h-[250px] items-center lg:flex-row flex-col lg:mt-0 mt-8'>
         <div className='flex-1 lg:w-[1280px] w-full px-3 ml-[20px] items-start'>
           <p>Directed, wrote and acted in multiple plays, leading teams of 5+ individuals for memorable performances.</p>
-          <button className=' w-[140px] bg-purple text-white hover:bg-lightpurple hover:text-gray p-2 rounded-md mt-8 transition'>
-            <a href='https://drive.google.com/file/d/1VC-vq2ZufkqZlOsP2iqO67MKb6XkLUc4/view?usp=sharing' className='font-serif font-[700] text-[14px]'>My Certificate</a>
-          </button>
+          <a href='https://drive.google.com/file/d/1VC-vq2ZufkqZlOsP2iqO67MKb6XkLUc4/view?usp=sharing' target='_blank' rel='noreferrer' className='flex justify-center inline-block w-[140px] bg-purple text-white hover:bg-lightpurple hover:text-gray p-2 rounded-md mt-8 transition'>
+            <button className='font-serif font-[700] text-[14px]'>My Certificate</button>
+          </a>
         </div>
       </div>
       <div className='w-full flex justify-start lg:px-[35px] md:px-[100px] px-0 min-h-[300px] lg:items-start lg:mt-0 mt-8 items-center gap-5 lg:flex-row flex-col mb-10 flex-wrap'>

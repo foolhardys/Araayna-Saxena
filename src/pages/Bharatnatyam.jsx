@@ -16,12 +16,12 @@ const Bharatnatyam = () => {
           <p>Trained in Bharatanatyam through 8+ years of relentless dedication and attained an esteemed degree, attesting to the depth of knowledge and expertise in this classical dance form.
           </p>
           <div>
-            <button className=' w-[140px] bg-purple text-white hover:bg-lightpurple hover:text-gray p-2 pr-0 rounded-sm mt-8 transition'>
-              <a className='font-serif font-[700] text-[16px] flex gap-2 items-center' href='https://drive.google.com/file/d/1mOQDD0C9wUM5GoiLa9gwfCaZcOjrbQKP/view?usp=drive_link' target='_blank' rel="noreferrer">My Degree <span className='ml-[4px]'><AiOutlineDown className='text-[16px]' /></span></a>
-            </button>
-            <button className=' w-[140px] bg-purple text-white hover:bg-lightpurple ml-[20px] hover:text-gray p-2 pr-0 rounded-sm mt-8 transition'>
-              <a className='font-serif font-[700] text-[16px] flex gap-2 items-center' href='https://drive.google.com/file/d/1F14zVdzLD4-BAzqk4TkkXEEqT1shSk_7/view?usp=drive_link' target='_blank' rel="noopener noreferrer">Newspaper 	<span className='ml-[4px]'><AiOutlineDown className='text-[16px]' /></span></a>
-            </button>
+            <a href='https://drive.google.com/file/d/1mOQDD0C9wUM5GoiLa9gwfCaZcOjrbQKP/view?usp=drive_link' target='_blank' rel="noreferrer" className='inline-block w-[140px] bg-purple text-white hover:bg-lightpurple hover:text-gray p-2 pr-0 rounded-sm mt-8 transition'>
+              <button className='font-serif font-[700] text-[16px] flex gap-2 items-center' >My Degree <span className='ml-[4px]'><AiOutlineDown className='text-[16px]' /></span></button>
+            </a>
+            <a href='https://drive.google.com/file/d/1F14zVdzLD4-BAzqk4TkkXEEqT1shSk_7/view?usp=drive_link' target='_blank' rel="noopener noreferrer" className='inline-block w-[140px] bg-purple text-white hover:bg-lightpurple ml-[20px] hover:text-gray p-2 pr-0 rounded-sm mt-8 transition'>
+              <button className='font-serif font-[700] text-[16px] flex gap-2 items-center' >Newspaper 	<span className='ml-[4px]'><AiOutlineDown className='text-[16px]' /></span></button>
+            </a>
           </div>
         </div>
         <div className=' flex justify-center items-center lg:absolute lg:top-[0px] lg:right-0 rounded-md lg:translate-x-0 h-[510px] w-[400px]'>

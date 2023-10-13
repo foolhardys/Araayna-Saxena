@@ -4,9 +4,9 @@ import Two from '../Assets/Projects/2.png'
 
 const Competetions = () => {
     return (
-        <article className='lg:w-[1280px] lg:p-4 p-8 w-full flex flex-col justify-center mb-40 '>
+        <article className='lg:w-[1280px] lg:p-4 p-8 w-full flex flex-col justify-center mb-20 '>
             <h1 className='font-display text-[56px] md:text-[56px] font-[400] text-secondary mb-[40px] text-left'>Competitions</h1>
-            <div className='flex lg:flex-row flex-col lg:justify-start justify-between gap-5 min-h-[900px] md:h-auto'>
+            <div className='flex lg:flex-row flex-col lg:justify-start justify-between gap-5 min-h-[700px] md:h-auto'>
                 <article className='rounded-md md:w-[500px] md:h-[640px] w-[350px] h-[300px]'>
                     <a href="https://drive.google.com/file/d/1toIHgEI2yJUNJByaYE7-SPhBcKHWhFr4/view?usp=drive_link" target='_blank' rel="noreferrer">
                         <img src={One} alt="8th science festival" className='md:w-[500px] md:h-[420px] w-[350px] h-[300px] shadow-md' />

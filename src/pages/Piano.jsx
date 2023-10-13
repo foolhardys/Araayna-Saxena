@@ -22,9 +22,9 @@ const Piano = () => {
             <br />
           </p>
         </div>
-        <button className='bg-purple p-2 hover:bg-lightpurple text-white hover:text-dark-gray rounded-md mb-8 w-[150px] ml-[60px]'>
-          <a href="https://drive.google.com/file/d/1-dsseuJuKFRvneKzo0o0keOVZxq-cVkM/view?usp=drive_link" target="_blank" rel="noopener noreferrer">Certificate</a>
-        </button>
+        <a href="https://drive.google.com/file/d/1-dsseuJuKFRvneKzo0o0keOVZxq-cVkM/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className='flex justify-center inline-block bg-purple p-2 hover:bg-lightpurple text-white hover:text-dark-gray rounded-md mb-8 w-[150px] ml-[60px]'>
+          <a >Certificate</a>
+        </a>
       </div>
       <div className='w-full flex justify-start px-[40px] min-h-[300px] lg:items-start items-center gap-5 lg:flex-row flex-col mb-10'>
         <YoutubePlayer url='https://www.youtube.com/embed/yNpDB6hp90Y' para='Piano Cover of Jodler (Yodeller) by Urli Gruber #Shorts #Piano #ytshorts #trending

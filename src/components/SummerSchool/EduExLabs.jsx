@@ -9,8 +9,9 @@ const EduExLabs = () => {
         <p className='mb-4 font-quicksand font-[400] text-[18px] text-dark-gray'>
           Completed 4-weeks online training on AI, Machine learning, Deep <br /> Learning,Computer Vision, and Natural Language Processing from <br /> <a href="https://www.eduxlabs.com/" className='font-quicksand font-[400] text-[18px] text-purple underline '>EduxLabs </a> in association with Mechanica <a href="https://www.linkedin.com/company/mechanicaiitmadras/" className='font-quicksand font-[400] text-[18px] text-purple underline ' target='_blank' rel="noreferrer">IIT Madras . </a>
         </p>
-        <button className='bg-purple rounded-md  p-3 hover:bg-lightpurple hover:text-dark-gray text-white'>
-          <a href="https://github.com/AraynaSaxena?tab=repositories" className='text-[18px] font-quicksand font-[700]' target='_blank' rel="noreferrer">Check out my projects</a></button>
+        <a target='_blank' rel="noreferrer" href="https://github.com/AraynaSaxena?tab=repositories" className=' flex justify-center w-[250px] bg-purple rounded-md  p-3 hover:bg-lightpurple hover:text-dark-gray text-white'>
+          <button  className='text-[18px] font-quicksand font-[700]' >Check out my projects</button>
+        </a>
       </div>
       <div>
         <img src={Image} alt="Machine learning certificate" className='h-[346px]' />

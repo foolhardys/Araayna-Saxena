@@ -15,9 +15,9 @@ const Drums = () => {
             <p className='font-quicksand font-[400] text-[18px]'>
              •  Dedicated to learning the drums from the Trinity College of London, fueled by a deep passion for rock and roll. <br />  <br />•  Played at school’s annual functions and <br /> MAFFICK,the annual techno-cultural fest of NIT Bhopal which is Central India's premier college fest
             </p>
-            <button className=' w-[140px] bg-purple text-white hover:bg-lightpurple hover:text-gray p-2 rounded-sm mt-8 transition'>
-              <a href='https://drive.google.com/file/d/17soArb66Fy7Swz5zmfEXNkoquPC1oJ7d/view?usp=sharing' className='font-serif font-[700] text-[14px]' target='_blank' rel="noreferrer">My Degree</a>
-            </button>
+            <a target='_blank' rel="noreferrer" href='https://drive.google.com/file/d/17soArb66Fy7Swz5zmfEXNkoquPC1oJ7d/view?usp=sharing' className='inline-block flex justify-center w-[140px] bg-purple text-white hover:bg-lightpurple hover:text-gray p-2 rounded-sm mt-8 transition'>
+              <button className='font-serif font-[700] text-[14px]' >My Degree</button>
+            </a>
           </div>
         </div>
         <div className='w-full flex justify-start px-[100px] lg:mt-0 mt-4 min-h-[300px] lg:items-start items-center gap-5 lg:flex-row flex-col mb-10  flex-1'>

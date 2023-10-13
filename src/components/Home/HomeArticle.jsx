@@ -8,10 +8,6 @@ const HomeArticle = () => {
             <p className='text-secondary text-[18px] text-center font-quicksand font-[400] w-full lg:w-[950px] mb-[28px] lg:px-0 md:pr-4 mr-1'>Hi, I’m Arayna, a senior student at Billabong High International School in Bhopal. I wear many hats as an author, known for my work “Amidst The Downpour,” a dedicated founder of the Uthaan Foundation, and a <br />proactive initiative taker.  I harness my knowledge and passion to drive meaningful change and make a <br />positive impact. This website offers a journey through my years of dedication and hard work.
             </p>
             <br />
-            <a href=' ' rel="noreferrer" target='_blank' className='text-secondary text-[18px] font-monserrat font-[600] w-full lg:w-[750px] mb-[58px] text-center'>
-                Click below for my complete resume, or click through the tabs to find further details!
-            </a>
-            <br />
         </article>
     )
 }

@@ -23,7 +23,7 @@ export const Navlinks = [
   {
     id: 5,
     text: 'author',
-    url: 'author',
+    url: '/book',
   },
   {
     id: 6,

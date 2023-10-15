@@ -2,7 +2,7 @@ import React from 'react'
 
 const Internships = () => {
   return (
-    <article className='lg:w-[1280px] lg:p-4 p-8 w-full flex flex-col justify-center bg-light-gray shadow-md rounded-md md:mt-0 mt-[80px] '>
+    <article id='internships' className='lg:w-[1280px] lg:p-4 p-8 w-full flex flex-col justify-center bg-light-gray shadow-md rounded-md md:mt-0 mt-[80px] '>
       <h1 className='font-display text-[56px] md:text-[56px] font-[400] text-secondary mb-[40px] text-left'>Internships</h1>
       <article className='flex flex-col gap-8 p-4'>
         <div>

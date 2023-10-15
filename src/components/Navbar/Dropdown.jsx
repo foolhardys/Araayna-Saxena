@@ -5,22 +5,22 @@ const sublinks = [
     {
         id: 1,
         text: 'bharatnatyam',
-        url: '/extracurricular/bharatnatyam'
+        url: 'bharatnatyam'
     },
     {
         id: 2,
         text: 'drama',
-        url: '/extracurricular/drama'
+        url: 'drama'
     },
     {
         id: 3,
         text: 'drums',
-        url: '/extracurricular/drums'
+        url: 'drums'
     },
     {
         id: 4,
         text: 'piano',
-        url: '/extracurricular/piano'
+        url: 'piano'
     },
 ]
 
@@ -38,13 +38,13 @@ const Dropdown = () => {
                     const { id, text, url } = sublink
                     return (
                         <li key={id}>
-                            <Link
-                                to={url}
+                            <a
+                                href={`#${url}`}
                                 className='font-raleway text-[15px] font-normal'
                                 onClick={() => setDropdown(false)}
                             >
                                 {text}
-                            </Link>
+                            </a>
                         </li>
                     );
                 })}

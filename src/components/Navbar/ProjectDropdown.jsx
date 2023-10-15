@@ -2,6 +2,8 @@ import React, { useState } from "react"
 import { Link } from "react-router-dom";
 
 
+
+
 const sublinks = [
     {
         id: 1,
@@ -11,12 +13,12 @@ const sublinks = [
     {
         id: 2,
         text: 'internships',
-        url: 'projects'
+        url: 'internships'
     },
     {
         id: 3,
         text: 'competitions',
-        url: 'projects'
+        url: 'competetions'
     },
 ]
 
@@ -33,15 +35,16 @@ const ProjectDropdown = () => {
                 {sublinks.map((sublink) => {
                     const { id, text, url } = sublink
                     return (
-                        <li key={id}>
-                            <Link
+                        <a key={id} href={`projects#${url}`} className='font-raleway text-[15px] font-normal'>
+                            {/* <Link
                                 to={url}
                                 className='font-raleway text-[15px] font-normal'
                                 onClick={() => setDropdown(false)}
                             >
                                 {text}
-                            </Link>
-                        </li>
+                            </Link> */}
+                            {text}
+                        </a>
                     );
                 })}
             </ul>
@@ -50,3 +53,30 @@ const ProjectDropdown = () => {
 }
 
 export default ProjectDropdown
+
+
+// const sublinks = [
+//     {
+//       id: 1,
+//       text: 'research',
+//       url: 'projects',
+//     },
+//     {
+//       id: 2,
+//       text: 'internships',
+//       url: 'internships',
+//     },
+//     {
+//       id: 3,
+//       text: 'competitions',
+//       url: 'competitions',
+//     },
+//   ];
+  
+
+//   {sublinks.map((sublink) => (
+//     <a key={sublink.id} href={`#${sublink.url}`}>
+//       {sublink.text}
+//     </a>
+//   ))}
+  

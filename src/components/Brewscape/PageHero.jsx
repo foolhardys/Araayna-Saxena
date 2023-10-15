@@ -18,7 +18,7 @@ const PageHero = () => {
                         &nbsp;&nbsp;&nbsp;3. <strong className='font-[800] text-dark-gray'>Build a Community of Caffeinated Adventurers</strong> <br />&nbsp;&nbsp;&nbsp;, taking suggestions and transforming shared sips <br />&nbsp;&nbsp;&nbsp; into lasting bonds.
                         <br />
                         &nbsp;&nbsp;&nbsp;4.<strong className='font-[800] text-dark-gray'>Embark</strong>  a flavourful  journey together, where <br />&nbsp;&nbsp;&nbsp; suggestions brew, and <strong className='font-[800] text-dark-gray'>connections flourish</strong> – one cup <br />&nbsp;&nbsp;&nbsp; at a time.</p>
-                    <a href='' target='_blank' rel='noreferrer' className='flex justify-center w-[230px] p-4 bg-purple text-white hover:bg-lightpurple hover:text-gray my-4 rounded-md'>
+                    <a href='http://Brewscape.in' target='_blank' rel='noreferrer' className='flex justify-center w-[230px] p-4 bg-purple text-white hover:bg-lightpurple hover:text-gray my-4 rounded-md'>
                         <button  className='font-quicksand text-[18px] font-[700]'> Visit Website</button>
                     </a>
                 </div>

@@ -28,7 +28,7 @@ const CafeAnalysis = () => {
             My contributions involved innovative technology integration, introduction of QR code surveys, analysis of diverse data sources, optimization of peak timings, and provision of direction of targeted improvements.
             These efforts resulted in data-driven insights, reducing negative feedback and boosting positive reviews, empowering cafe management with valuable decision-making resources.
           </p>
-          <a className='bg-purple hover:bg-lightpurple text-white hover:text-dark-gray py-4 px-8 rounded-md font-quicksand font-[700] text-[18px] w-[200px]' href="https://drive.google.com/file/d/14P0QpZxMnI-HLAJRHArjhi03h-9y8IaT/view?usp=drive_link" target='_blank' rel="noreferrer">Project Report</a>
+          <a className='bg-purple hover:bg-lightpurple text-white hover:text-dark-gray py-4 px-8 rounded-md font-quicksand font-[700] text-[18px] w-[200px]' href="https://drive.google.com/file/d/1MpGTMGAqVpEpmdcGrVHH36DD5M8Bdb0J/view?usp=drive_link" target='_blank' rel="noreferrer">Project Report</a>
         </div>
         <div className='w-2/6'>
           <img src={Four} alt="Funfilters" className='h-[200px] md:block hidden' />

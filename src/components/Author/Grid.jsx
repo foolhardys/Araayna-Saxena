@@ -18,9 +18,9 @@ const Grid = () => {
     return (
         <div className='grid md:grid-cols-2 w-[1280px] grid-cols-1 md:grid-rows-7 grid-rows-14'>
             <div className='w-full lg:mb-5 mb-10 min-h-[70vh]'>
-                <div className='flex flex-col items-center'>
+                <div className='flex flex-col items-center justify-center h-full gap-[20px]'>
                     <img src={H1} alt="" />
-                    <p className='text-[24px] px-[80px]'>One day at a time, shall we saunter on the
+                    <p className='text-[24px] px-[80px] font-noto'>One day at a time, shall we saunter on the
                         shore,<br />
                         Washed by the waves of concords of
                         goodwill,<br />
@@ -36,9 +36,9 @@ const Grid = () => {
                 <img src={P2} alt="" className='h-full' />
             </div>
             <div className='w-full lg:mb-5 mb-10 min-h-[70vh]'>
-                <div className='flex flex-col items-center'>
+                <div className='flex flex-col items-center justify-center h-full gap-[20px]'>
                     <img src={H2} alt="" />
-                    <p className='text-[24px] px-[80px]'>
+                    <p className='text-[24px] px-[80px] font-noto'>
                         These petals adorning me like jewels,<br />
                         Are mistaken for the reason of my
                         existence,<br />
@@ -50,9 +50,9 @@ const Grid = () => {
                 </div>
             </div>
             <div className='w-full lg:mb-5 mb-10 min-h-[70vh]'>
-                <div className='flex flex-col items-center'>
+                <div className='flex flex-col items-center justify-center h-full gap-[20px]'>
                     <img src={H3} alt="" />
-                    <p className='text-[24px] px-[80px]'>
+                    <p className='text-[24px] px-[80px] font-noto'>
                         Seek the light that brightens within
                         you,<br />
                         And bid your inner turbulence adieu,<br />
@@ -70,9 +70,9 @@ const Grid = () => {
                 <img src={P4} alt="" className='h-full' />
             </div>
             <div className='w-full lg:mb-5 mb-10 min-h-[70vh]'>
-                <div className='flex flex-col items-center'>
+                <div className='flex flex-col items-center justify-center h-full gap-[20px]'>
                     <img src={H4} alt="" />
-                    <p className='text-[24px] px-[80px]'>
+                    <p className='text-[24px] px-[80px] font-noto'>
                         No one else could have made what I was
                         drinking, <br />
                         Because it was my father’s selfless love that
@@ -86,9 +86,9 @@ const Grid = () => {
                 </div>
             </div>
             <div className='w-full lg:mb-5 mb-10 min-h-[70vh]'>
-                <div className='flex flex-col items-center'>
+                <div className='flex flex-col items-center justify-center h-full gap-[20px]'>
                     <img src={H5} alt="" />
-                    <p className='text-[24px] px-[80px]'>
+                    <p className='text-[24px] px-[80px] font-noto'>
                         While the world read the caterpillar’s book, <br />
                         It was the beginning of a new chapter for
                         the butterfly, <br />
@@ -107,9 +107,9 @@ const Grid = () => {
                 <img src={P6} alt="" className='h-full' />
             </div>
             <div className='w-full lg:mb-5 mb-10 min-h-[70vh]'>
-                <div className='flex flex-col items-center'>
+                <div className='flex flex-col items-center justify-center h-full gap-[20px]'>
                     <img src={H6} alt="" />
-                    <p className='text-[24px] px-[80px]'>
+                    <p className='text-[24px] px-[80px] font-noto'>
                         For the price of the crimes these emotions
                         commit, <br />
                         Can only be paid on this paper, <br />
@@ -121,9 +121,9 @@ const Grid = () => {
                 </div>
             </div>
             <div className='w-full lg:mb-5 mb-10 min-h-[70vh]'>
-                <div className='flex flex-col items-center'>
+                <div className='flex flex-col items-center justify-center h-full gap-[20px]'>
                     <img src={H7} alt="" />
-                    <p className='text-[24px] px-[80px]'>
+                    <p className='text-[24px] px-[80px] font-noto'>
                         One can sense earnest condolences as it
                         disappears in my surveillance, <br />
                         My mind drowns in the demands for

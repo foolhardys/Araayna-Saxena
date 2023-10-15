@@ -45,6 +45,7 @@ export default {
       courier: ['Courier Prime', 'monospace'],
       dancing: ['Dancing Script', 'cursive'],
       playfair: ['Playfair Display', 'serif'],
+      noto: ['Noto Serif', 'serif']
     },
     extend: {
       backgroundImage: {

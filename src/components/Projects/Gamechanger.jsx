@@ -10,7 +10,10 @@ const Gamechanger = () => {
                     Not only does it spread awareness but also helps NGOs working towards these causes raise funds by including their donation details at each loss or win with a message. It has successfully helped raise over 60,000 rupees for 4+ NGOs.
                 </p>
                 <a href="https://github.com/AraynaSaxena/Quench-The-Thirst-Game-" target='_blank' rel="noreferrer" className='w-[180px] font-quicksand font-[700] text-[18px] bg-purple rounded-lg hover:bg-lightpurple px-5 ml-3 py-4 border-2 text-white hover:text-gray mb-10 '>
-                    Project
+                    Github
+                </a>
+                <a href='https://drive.google.com/file/d/1baj1uTlE6ggOFz6JS3JhRgfvoG_MoVCJ/view?usp=drive_link' target='_blank' rel="noreferrer" className='w-[180px] font-quicksand font-[700] text-[18px] bg-purple rounded-lg hover:bg-lightpurple px-5 ml-3 py-4 border-2 text-white hover:text-gray mb-10 '>
+                    Project Report
                 </a>
             </div>
             <div className='flex-1 flex justify-center mt-5'>

@@ -75,7 +75,7 @@ const Book = () => {
         </article>
         <article className='bg-book-3 bg-center bg-cover w-full min-h-[80vh] ml-[10px] md:ml-0 flex justify-center mt-[200px] lg:p-0 p-5'>
           <div className='lg:w-[980px] w-full' >
-            <p className='text-[24px] font-serif'>
+            <p className='text-[24px] font-serif font-extralight'>
               Amidst The Downpour is a book about the downpour of my thoughts, opinions, and imagination through poetry that represents different themes including self-love, peace, recovery, morality, individuality, optimism, faith and strength . In terms of the book cover, with this wind and through this book I’ve let my thoughts free in the form of poems for others to read and perceive. So these pages flying with the wind, are my thoughts searching for a reader’s mind as their destination."
               <br /><br />
               The panoramic selection of themes in Arayna’s book — self-love, optimism, faith and morality — are thought-provoking and highly relevant. The book is a great balance of sentiments and individuality. The book comprises beautiful calligraphy titles, bookmark, a thank you letter, and illustrations highlighting the concepts of the poems.
@@ -91,7 +91,7 @@ const Book = () => {
         <article className='bg-book-1 bg-center bg-cover w-full min-h-[80vh] ml-[10px] md:ml-0 flex lg:justify-start justify-center mt-[50px] lg:p-0 p-5'>
           <div className='lg:w-[600px] w-full flex flex-col lg:ml-[180px] ml-0' >
             <h1 className='text-[40px] font-display font-[500] leading-[50px] mb-4'>Discover the captivating world of poetic expression with my latest collection of poetry.</h1>
-            <p className='text-[24px] pr-10'>
+            <p className='text-[24px] pr-10 font-noto'>
               Immerse yourself in the enchanting beauty of language and emotions woven into each carefully crafted poem. <br /><br />
               Let these links guide you to the realm of imagination, where words dance gracefully on the pages, touching hearts and igniting a passion for the written word.
             </p>
@@ -99,14 +99,14 @@ const Book = () => {
               <button className='px-8 py-2 ring-offset-2 ring-2 rounded-sm text-light-blue hover:underline bg-cream/50'><a href="https://www.amazon.in/Amidst-downpour-Arayna-saxena/dp/9354726224" target="_blank" rel="noopener noreferrer">Amazon</a></button>
               <button className='px-8 py-2 ring-offset-2 ring-2 rounded-sm text-light-blue hover:underline bg-cream/50'><a href="https://www.flipkart.com/amidst-the-downpour/p/itm73e6f78eb39dd" target="_blank" rel="noopener noreferrer">Flipkart</a></button>
               <button className='px-8 py-2 ring-offset-2 ring-2 rounded-sm text-light-blue hover:underline bg-cream/50'><a href="https://bluerosepublishers.com/product/amidst-the-downpour/" target="_blank" rel="noopener noreferrer">Blue Rose</a></button>
-              <button className='px-8 py-2 ring-offset-2 ring-2 rounded-sm text-light-blue hover:underline bg-cream/50'><a href="https://www.barnesandnoble.com/w/amidst-the-downpour-arayna-saxena/1140524913" target="_blank" rel="noopener noreferrer">Barnes&Nobles</a></button>
+              <button className='px-8 py-2 ring-offset-2 ring-2 rounded-sm text-light-blue hover:underline bg-cream/50'><a href="https://www.barnesandnoble.com/w/amidst-the-downpour-arayna-saxena/1140524913" target="_blank" rel="noopener noreferrer">Barnes&Noble</a></button>
               <button className='px-8 py-2 ring-offset-2 ring-2 rounded-sm text-light-blue hover:underline bg-cream/50'><a href="https://www.walmart.com/ip/Amidst-the-downpour-Paperback-9789354726224/427368823" target="_blank" rel="noopener noreferrer">Walmart</a></button>
             </div>
           </div>
         </article>
         <article className='bg-book-2 bg-center bg-cover w-full min-h-[80vh] ml-[10px] md:ml-0 flex lg:flex-row flex-col lg:justify-start justify-center mt-[50px] lg:p-0 p-5'>
           <div className='lg:w-2/3 w-full flex flex-col lg:px-[50px] px-0 py-[70px]' >
-            <p className='text-[24px] lg:pr-10 pr-0 w-full'>
+            <p className='text-[24px] lg:pr-10 pr-0 w-full font-noto'>
               Club Literati’ in Collaboration with ‘Uthaan Foundation’, Bhopal Organised a Book Launch Ceremony for Arayna’s book. Arayna was felicitated by Hon’ble Mr Mangubhai C Patel, Governor of M.P. ; Hon’ble Mr Vishwas Sarang, Minister of Medical Education (M.P.); Shri Manoj Srivastava, Retd. Senior IAS Officer and author to about 36 books and many such prominent personalities in the field of literature and journalism at Minto Hall, Bhopal on 10th October 2021. <br /><br />
               Through this book, author Arayna Saxena has delivered a palpable collection of perspectives on the many elements of life. The poetry in this book is raw and beautiful, making this a book that is easily relatable to all of its readers, and a ride brimming with every kind of emotion imaginable. It says the words so many of us think of, but never speak of.Her book has inspired and encouraged students to value literature and enhance their literary talents to become authors.
             </p>

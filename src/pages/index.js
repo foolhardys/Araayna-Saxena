@@ -13,6 +13,7 @@ import Error from './Error'
 import Author from './Author'
 import Brewscape from './Brewscape'
 import Book from './Book'
+import Recognitions from './Recognitions'
 
 export {
     HomePage,
@@ -28,6 +29,7 @@ export {
     Piano,
     Error,
     Brewscape,
+    Recognitions,
     Author,
     Book
 }

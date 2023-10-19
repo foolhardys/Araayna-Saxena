@@ -11,7 +11,7 @@ const sublinks = [
     {
         id: 2,
         text: 'the author',
-        url: 'author'
+        url: '/author'
     },
     {
         id: 3,
@@ -33,16 +33,9 @@ const AuthorDropdown = () => {
                 {sublinks.map((sublink) => {
                     const { id, text, url } = sublink
                     return (
-                        <a key={id} href={`book#${url}`} className='font-raleway text-[15px] font-normal'>
-                            {/* <Link
-                                to={url}
-                                className='font-raleway text-[15px] font-normal'
-                                onClick={() => setDropdown(false)}
-                            >
-                                {text}
-                            </Link> */}
+                        <Link key={id} to={url} className="font-raleway text-[15px] font-normal" onClick={() => setDropdown(false)} >
                             {text}
-                        </a>
+                        </Link>
                     );
                 })}
             </ul>

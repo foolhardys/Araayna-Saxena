@@ -22,7 +22,7 @@ const FunFilters = () => {
           <h1 className='font-quicksand font-[700] text-[20px] text-white mb-4'>FunFilters using Facial Recognition: </h1>
           <p className='font-quicksand font-[400] text-[18px] text-white mb-8'>
             FunFilters is a dynamic project aimed at providing users with a captivating platform to elevate their photos and videos using a wide array of customizable face filters, stickers, effects, and animations. <br /> <br />
-            Features include Face Filters with Face Recognition, Live Webcam                          Snapshots, Video Recording, Canvas Borders and Frames, Image Editing. It empowers users to transform their visual content into captivating and shareable works of art.
+            Features include Face Filters with Face Recognition, Live Webcam                          Snapshots, Video Recording, Canvas Borders and Frames, Image Editing. It empowers users to transform their visual content into captivating and shareable works of art. <br /> <br />
             Best Used with HP or Windows as layout might vary with IOS
 
           </p>

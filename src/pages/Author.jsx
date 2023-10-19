@@ -23,7 +23,7 @@ const Author = () => {
       <PageHero />
       <section>
         <div className="bg-bg-1 w-[full] items-center overflow-x-hidden min-h-[100vh] lg:block flex flex-col justify-center">
-          <p className=" lg:text-[60px] text-[80px] max-w-[30vw] lg:ml-[5vw] md:ml-0 -ml-[200px] lg:mt-[25vh] md:mt-[15vh] md:text-center text-justify font-[100]  font-display leading-[50px] mb-4">The Author's Journey</p>
+          <p className=" lg:text-[60px] text-[80px] max-w-[30vw] lg:ml-[5vw] md:ml-0 -ml-[200px] lg:mt-[25vh] md:mt-[15vh] md:text-center text-justify font-[700]  font-raleway leading-[50px] mb-4">The Author's Journey</p>
           <p className="font-courier md:text-[30px] text-[50px] md:mb-5 mb-0 max-w-[30vw] md:ml-[5vw] -ml-[200px] md:text-center text-justify text-light-blue ">Arayna Saxena</p>
           <Link to='/book' className='mx-auto lg:ml-[13.5vw] md:mx-auto ml-10 lg:p-4 p-2 md:px-6 md:py-4  rounded-md transition bg-purple text-[18px] font-quicksand hover:bg-lightpurple hover:text-dark-gray text-white font-[700]'>About the book</Link>
         </div>
@@ -32,10 +32,10 @@ const Author = () => {
             <div className="flex lg:flex-row flex-col">
               <div className="w-full flex-1 relative pt-[5em]" >
                 <div className='ml-[100px] flex flex-col justify-center lg:py-[150px] py-0'>
-                  <h1 className='md:text-[90px] text-[60px] text-left ml-[0px] leading-[40px] font-[500] relative font-courier'>The story</h1>
+                  <h1 className='md:text-[90px] text-[60px] text-left ml-[0px] leading-[50px] font-[500] relative font-playfair'>The story</h1>
                   <div className="grid mt-[10px] ml-[90px]"><img src={One} alt="" /></div>
-                  <h1 className='md:text-[90px] text-[60px] text-left leading-[68px] font-[500] font-courier'>behind my</h1>
-                  <h1 className='md:text-[90px] text-[60px] text-left leading-[68px] font-[500] font-courier'>book</h1>
+                  <h1 className='md:text-[90px] text-[60px] text-left leading-[85px] font-[500] font-playfair'>behind my</h1>
+                  <h1 className='md:text-[90px] text-[60px] text-left leading-[85px] font-[500] font-playfair'>book</h1>
                 </div>
                 <div className="grid"><img src={Two} alt="" /></div>
               </div>
@@ -122,7 +122,7 @@ const Author = () => {
                   I have always been passionate about poetry and storytelling. I think of myself as a curious Author who loves exploring different themes and motifs which reflects in my poems. As part of my writing process, I loves immersing myself in my work-diving headfirst into the imagination, writing and fine-tuning of the stories I feel are the most worthy of telling. This book remains very close to my heart as it comprises poems I have been writing and treasuring in a small notebook my mom gifted me to now when I finally felt that my poems could be given a home in this book.
                 </h3>
                 <div className="grid relative">
-                  <img src={Twelve} alt="" className='absolute right-0 mr-[170px] -translate-y-10' />
+                  <img src={Twelve} alt="" className='absolute right-0 mr-[23vh] -translate-y-10' />
                 </div>
                 <div className="grid relative h-[35px]">
                   <img src={Nine} alt="" className='absolute left-[-330px] top-[-100px]' />

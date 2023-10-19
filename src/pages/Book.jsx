@@ -60,7 +60,7 @@ const Book = () => {
     <section className='min-h-screen flex flex-col items-center'>
       <PageHero />
       <section className='w-full flex flex-col items-center'>
-        <article className='bg-bg-contact2 bg-center bg-cover lg:w-[1280px] min-h-[60vh] ml-[10px] md:ml-0 lg:p-0 p-5'>
+        <article className='bg-bg-contact2 bg-center bg-cover lg:w-[1280px] min-h-[60vh] ml-[10px] md:ml-0 lg:pt-16 pt-0 p-5'>
           <h1 className='text-[25px] uppercase font-[300] text-secondary tracking-widest'>Revealing</h1>
           <h1 className='text-[70px] capitalize font-[300] text-secondary leading-[60px] mb-[20px] font-display mt-[10px] '>Amidst the <br /> downpour</h1>
           <h3 className='text-[25px] uppercase font-[300] text-secondary mb-[20px] tracking-widest'>by arayna saxena</h3>
@@ -73,9 +73,9 @@ const Book = () => {
             </Link>
           </div>
         </article>
-        <article className='bg-book-3 bg-center bg-cover w-full min-h-[80vh] ml-[10px] md:ml-0 flex justify-center mt-[200px] lg:p-0 p-5'>
+        <article className='bg-book-3 bg-bottom w-full min-h-[80vh] ml-[10px] md:ml-0 flex justify-center mt-[200px] lg:p-0 p-5'>
           <div className='lg:w-[980px] w-full' >
-            <p className='text-[24px] font-serif font-extralight'>
+            <p className='text-[24px] font-noto font-extralight text-justify'>
               Amidst The Downpour is a book about the downpour of my thoughts, opinions, and imagination through poetry that represents different themes including self-love, peace, recovery, morality, individuality, optimism, faith and strength . In terms of the book cover, with this wind and through this book I’ve let my thoughts free in the form of poems for others to read and perceive. So these pages flying with the wind, are my thoughts searching for a reader’s mind as their destination."
               <br /><br />
               The panoramic selection of themes in Arayna’s book — self-love, optimism, faith and morality — are thought-provoking and highly relevant. The book is a great balance of sentiments and individuality. The book comprises beautiful calligraphy titles, bookmark, a thank you letter, and illustrations highlighting the concepts of the poems.
@@ -105,8 +105,8 @@ const Book = () => {
           </div>
         </article>
         <article className='bg-book-2 bg-center bg-cover w-full min-h-[80vh] ml-[10px] md:ml-0 flex lg:flex-row flex-col lg:justify-start justify-center mt-[50px] lg:p-0 p-5'>
-          <div className='lg:w-2/3 w-full flex flex-col lg:px-[50px] px-0 py-[70px]' >
-            <p className='text-[24px] lg:pr-10 pr-0 w-full font-noto'>
+          <div className='lg:w-2/3 w-full flex flex-col lg:px-[80px] px-0 py-[70px]' >
+            <p className='text-[20px] lg:pr-10 pr-0 w-full font-noto'>
               Club Literati’ in Collaboration with ‘Uthaan Foundation’, Bhopal Organised a Book Launch Ceremony for Arayna’s book. Arayna was felicitated by Hon’ble Mr Mangubhai C Patel, Governor of M.P. ; Hon’ble Mr Vishwas Sarang, Minister of Medical Education (M.P.); Shri Manoj Srivastava, Retd. Senior IAS Officer and author to about 36 books and many such prominent personalities in the field of literature and journalism at Minto Hall, Bhopal on 10th October 2021. <br /><br />
               Through this book, author Arayna Saxena has delivered a palpable collection of perspectives on the many elements of life. The poetry in this book is raw and beautiful, making this a book that is easily relatable to all of its readers, and a ride brimming with every kind of emotion imaginable. It says the words so many of us think of, but never speak of.Her book has inspired and encouraged students to value literature and enhance their literary talents to become authors.
             </p>

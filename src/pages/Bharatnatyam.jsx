@@ -32,7 +32,7 @@ const Bharatnatyam = () => {
         <YoutubePlayer url='https://www.youtube.com/embed/B4jhcQb8WmE?si=2x-jpT4VBEdOuyaE' para='Performed thrice in front of audiences of over 4 lakh spectators on the momentous occasions of Indian festival Dussehra, making a debut at 10 years.
 ' />
         <YoutubePlayer url='https://www.youtube.com/embed/pCq7IgrSRtY?si=7B_oA5WB9aEQbJmw' para='
-           Represented India at the Mersin World Children Festival in Turkey, 2019. Choreographed and performed solo Bharatanatyam, as well as showcased two different group performances for the festival.
+           Represented India at the Mersin World Children Festival in Turkey, 2019. Choreographed and performed solo Bharatanatyam, as well as showcased two different group performances for the festival. Our performance was recognised by the mayor of Istanbul 2019.
 '/>
         <YoutubePlayer url='https://www.youtube.com/embed/mfPZseQksQA?si=qyG7DF3zfaWLdNeE' para='Recipient of the Certificate of Excellent Performance  at Vihaan 2016 - Annual Techno Cultural fest at  Radharaman Group of Institutions and acquired 1st position  amongst other 50 college students' />
       </div>

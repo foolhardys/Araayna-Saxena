@@ -21,10 +21,10 @@ const MudraMitra = () => {
         <div className='w-4/6'>
           <h1 className='font-quicksand font-[700] text-[20px] text-white mb-4'>MudraMitrita : Bridging Bharatnatyam and ML:</h1>
           <p className='font-quicksand font-[400] text-[18px] text-white mb-8'>
-            "MudraMitra" is an innovative Bharatanatyam AI project that revolutionizes the learning of this ancient Indian dance form. Through advanced AI technology, it identifies intricate hand gestures known as "mudras" and provides students with their significance and meanings in real-time to benefit students and enthusiasts alike. <br /> <br />
+            "MudraMitrita" is an innovative Bharatanatyam AI project that revolutionizes the learning of this ancient Indian dance form. Through advanced AI technology, it identifies intricate hand gestures known as "mudras" and provides students with their significance and meanings in real-time to benefit students and enthusiasts alike. <br /> <br />
             Shared with notable Bharatnatyam academies, with thousands of users.
           </p>
-          <a href='' target='_blank' rel='noreferrer' className='bg-purple hover:bg-lightpurple text-white hover:text-dark-gray py-4 px-8 rounded-md font-quicksand font-[700] text-[18px] w-[200px]'>Project Report</a>
+          <a href='https://drive.google.com/file/d/1altTeLi1QSHgN0pM6Mvu2WN-0pbqNWeV/view?usp=share_link' target='_blank' rel='noreferrer' className='bg-purple hover:bg-lightpurple text-white hover:text-dark-gray py-4 px-8 rounded-md font-quicksand font-[700] text-[18px] w-[200px]'>Project Report</a>
         </div>
         <div className='w-2/6'>
           <img src={Two} alt="Funfilters" className='h-[200px] md:block hidden' />

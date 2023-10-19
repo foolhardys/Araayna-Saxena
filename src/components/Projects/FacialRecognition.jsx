@@ -22,8 +22,8 @@ const FacialRecognition = () => {
         <div className='w-4/6'>
           <h1 className='font-quicksand font-[700] text-[20px] text-white mb-4'>Facial Emotion Recognizer</h1>
           <p className='font-quicksand font-[400] text-[18px] text-white mb-8'>
-            Recognition:Focuses on decoding human emotions by analyzing characteristic facial muscle movements, bridging the gap between AI and human empathy.
-            Can be used in immersive VR/AR, improved human-computer interaction, driver safety through emotion detection, education support, market research, and security via emotion analysis in public places.
+            Focuses on decoding human emotions by analyzing characteristic facial muscle movements, bridging the gap between AI and human empathy.
+            Future uses include: in immersive VR/AR, improved human-computer interaction, driver safety through emotion detection, education support, market research, and security via emotion analysis in public places.
 
           </p>
           <a href="https://drive.google.com/file/d/1m6v6oOMYg0S1qwRfnyELhnEXAkRlqqvN/view?usp=drive_link" target='_blank' rel="noreferrer" className='bg-purple hover:bg-lightpurple text-white hover:text-dark-gray py-4 px-8 rounded-md font-quicksand font-[700] text-[18px] w-[200px] ml-3'>Project</a>

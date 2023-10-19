@@ -51,8 +51,8 @@
 
 
 .bg-book-3{
-    background: url('../components/Assets/Author/bookbg1.png');
-    background-position: center;
+    background: url('../components/Assets/Author/bookbg1.jpg');
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
 }

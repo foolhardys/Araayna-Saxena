@@ -7,7 +7,7 @@ const Harvard = () => {
     <div>
       <h1 className='text-[36px] font-display font-[400] mb-4 leading-10 '>HarvardX's Computer Science for Web <br />Programming Professional Certificate</h1>
       <p className='mb-4 font-quicksand font-[400] text-[18px] text-dark-gray'>
-      Ongoing: HarvardX's Computer Science for Web Programming <br /> Professional Certificate including CS50's Introduction to Computer <br /> Science and CS50's Web Programming with Python and JavaScript <br /> : <a href="https://www.edx.org/professional-certificate/harvardx-computer-science-for-web-programming" className='font-quicksand font-[400] text-[18px] text-purple underline ' target='_blank' rel="noreferrer"> Computer Science for Web Programming Professional Certificate | edX</a>
+      Ongoing: HarvardX's Computer Science for Web Programming <br /> Professional Certificate including CS50's Introduction to Computer <br /> Science and CS50's Web Programming with Python and JavaScript <br /> <a href="https://www.edx.org/professional-certificate/harvardx-computer-science-for-web-programming" className='font-quicksand font-[400] text-[18px] text-purple underline ' target='_blank' rel="noreferrer"> Computer Science for Web Programming Professional Certificate | edX</a>
       </p>
     </div>
     <div>

@@ -15,7 +15,7 @@ const talents = [
     {
         id: 2,
         heading: 'Actor, Playwright, Director and Activist',
-        description: 'Directed, wrote and acted in multiple plays, leading teams of 5+ individuals for memorable performances.',
+        description: '',
         url: 'drama'
     },
     {
@@ -27,7 +27,7 @@ const talents = [
     {
         id: 4,
         heading: 'Pianist',
-        description: 'Decoding human feelings with AI. One thing AI cannot imitate is the human quality of empathy driven by their complicated emotions',
+        description: "Playing Piano since Grade 3 under the school's Piano Club and pursuing examinations from Trinity College of London.",
         url: 'piano'
     },
 ]

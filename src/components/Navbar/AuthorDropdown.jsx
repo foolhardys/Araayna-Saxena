@@ -6,17 +6,17 @@ const sublinks = [
     {
         id: 1,
         text: 'About book',
-        url: '/book'
+        url: 'book'
     },
     {
         id: 2,
         text: 'the author',
-        url: '/author'
+        url: 'author'
     },
     {
         id: 3,
         text: 'Recognitions',
-        url: '/book'
+        url: 'recognitions'
     }
 ]
 
@@ -33,15 +33,16 @@ const AuthorDropdown = () => {
                 {sublinks.map((sublink) => {
                     const { id, text, url } = sublink
                     return (
-                        <li key={id}>
-                            <Link
+                        <a key={id} href={`book#${url}`} className='font-raleway text-[15px] font-normal'>
+                            {/* <Link
                                 to={url}
                                 className='font-raleway text-[15px] font-normal'
                                 onClick={() => setDropdown(false)}
                             >
                                 {text}
-                            </Link>
-                        </li>
+                            </Link> */}
+                            {text}
+                        </a>
                     );
                 })}
             </ul>

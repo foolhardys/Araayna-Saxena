@@ -71,6 +71,9 @@ const Book = () => {
             <Link to='/author' className='py-3 px-4 transition mr-[15px] rounded-md font-quicksand font-[700] bg-purple hover:bg-lightpurple text-white hover:text-dark-gray'>
               Author's Journey
             </Link>
+            <Link to='/recognitions' className='py-3 px-4 transition mr-[15px] rounded-md font-quicksand font-[700] bg-purple hover:bg-lightpurple text-white hover:text-dark-gray'>
+              Recognitions
+            </Link>
           </div>
         </article>
         <article className='bg-book-3 bg-bottom w-full min-h-[80vh] ml-[10px] md:ml-0 flex justify-center mt-[200px] lg:p-0 p-5'>

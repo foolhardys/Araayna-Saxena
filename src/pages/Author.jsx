@@ -26,6 +26,7 @@ const Author = () => {
           <p className=" lg:text-[60px] text-[80px] max-w-[30vw] lg:ml-[5vw] md:ml-0 -ml-[200px] lg:mt-[25vh] md:mt-[15vh] md:text-center text-justify font-[700]  font-raleway leading-[50px] mb-4">The Author's Journey</p>
           <p className="font-courier md:text-[30px] text-[50px] md:mb-5 mb-0 max-w-[30vw] md:ml-[5vw] -ml-[200px] md:text-center text-justify text-light-blue ">Arayna Saxena</p>
           <Link to='/book' className='mx-auto lg:ml-[13.5vw] md:mx-auto ml-10 lg:p-4 p-2 md:px-6 md:py-4  rounded-md transition bg-purple text-[18px] font-quicksand hover:bg-lightpurple hover:text-dark-gray text-white font-[700]'>About the book</Link>
+          {/* <Link to='/recognitions' className='mx-auto lg:ml-[13.5vw] md:mx-auto ml-10 lg:p-4 p-2 md:px-6 md:py-4  rounded-md transition bg-purple text-[18px] font-quicksand hover:bg-lightpurple hover:text-dark-gray text-white font-[700]'>Recognitions</Link> */}
         </div>
         <div className=" h-auto bg-bg-2 w-full items-center overflow-x-hidden">
           <div>

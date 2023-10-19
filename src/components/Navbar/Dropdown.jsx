@@ -9,7 +9,7 @@ const sublinks = [
     },
     {
         id: 2,
-        text: 'drama',
+        text: 'theatre',
         url: 'drama'
     },
     {

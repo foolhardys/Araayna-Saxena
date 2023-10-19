@@ -65,7 +65,7 @@ export const sublinks = [
   },
   {
     id: 4,
-    text: 'drama',
+    text: 'theatre',
     url: '/drama'
   }
 ]

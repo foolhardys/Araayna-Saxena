@@ -1,5 +1,5 @@
 // import React, { useState } from "react"
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 // const sublinks = [
 //     {
@@ -100,9 +100,9 @@ const Dropdown = () => {
         {sublinks.map((sublink) => {
           const { id, text, sectionId } = sublink;
           return (
-            <a
+            <Link
               key={id}
-              href={`/extracurricular#${sectionId}`}
+              to={`/extracurricular#${sectionId}`}
               className='font-raleway text-[15px] font-normal'
               onClick={() => {
                 setDropdown(false);
@@ -110,7 +110,7 @@ const Dropdown = () => {
               }}
             >
               {text}
-            </a>
+            </Link>
           );
         })}
       </ul>

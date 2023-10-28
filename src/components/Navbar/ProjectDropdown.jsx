@@ -8,21 +8,29 @@ const sublinks = [
     {
         id: 1,
         text: 'research',
-        url: 'projects'
+        sectionId: 'projects'
     },
     {
         id: 2,
         text: 'internships',
-        url: 'internships'
+        sectionId: 'internships'
     },
     {
         id: 3,
         text: 'competitions',
-        url: 'competetions'
+        sectionId: 'competetions'
     },
 ]
 
 const ProjectDropdown = () => {
+
+      // Function to handle smooth scrolling
+  function handleNavigation(sectionId) {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
 
     const [dropdown, setDropdown] = useState(false);
 
@@ -33,18 +41,19 @@ const ProjectDropdown = () => {
                 onClick={() => setDropdown(!dropdown)}
             >
                 {sublinks.map((sublink) => {
-                    const { id, text, url } = sublink
+                    const { id, text, sectionId } = sublink
                     return (
-                        <a key={id} href={`projects#${url}`} className='font-raleway text-[15px] font-normal'>
-                            {/* <Link
-                                to={url}
-                                className='font-raleway text-[15px] font-normal'
-                                onClick={() => setDropdown(false)}
-                            >
-                                {text}
-                            </Link> */}
+                        <Link
+                        key={id}
+                        to={`projects#${sectionId}`}
+                        className='font-raleway text-[15px] font-normal'
+                        onClick={() => {
+                setDropdown(false);
+                handleNavigation(sectionId);
+              }}
+                           >
                             {text}
-                        </a>
+                        </Link>
                     );
                 })}
             </ul>

@@ -5,7 +5,7 @@ import Video from '../components/Assets/Piano/video.mp4'
 
 const Piano = () => {
   return (
-    <article id='piano' className=' lg:w-[1280px] w-full shadow-xl rounded-3xl flex flex-col items-center justify-center mb-20'>
+    <article className=' lg:w-[1280px] w-full shadow-xl rounded-3xl flex flex-col items-center justify-center mb-20'>
       <div className='w-full bg-talent flex justify-center h-[230px] items-center rounded-3xl'>
         <div className='p-1 w-full'>
           <h1 className='lg:text-left text-center lg:text-[70px] md:text-[60px] text-[50px] font-[400] font-display capitalize text-secondary '> Pianist</h1>

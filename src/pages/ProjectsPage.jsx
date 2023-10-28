@@ -10,12 +10,18 @@ import Detective from '../components/Projects/Detective'
 const ResearchPage = () => {
   return (
     <section className='min-h-screen flex flex-col items-center'>
-      <PageHero/>
-      <Gamechanger/>
-      <Detective/>
-      <Competetions/>
-      <Internships/>
-      <Website/>
+      <PageHero />
+      <div id="projects">
+        <Gamechanger />
+        <Detective />
+      </div>
+      <div id="competetions">
+        <Competetions />
+      </div>
+      <div id="internships">
+        <Internships />
+      </div>
+      <Website />
     </section>
   )
 }
